@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: art
+permalink: /art/
+description: Some art
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [2014,2015,2016,2017]
 horizontal: false
 ---
 
