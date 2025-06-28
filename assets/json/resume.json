@@ -3,7 +3,7 @@
     "name": "Laura Wagner",
     "label": "Doctoral Candidate",
     "image": "",
-    "summary": "Researcher focused on revealing fault lines in visual culture through text-to-image generative-AI models. Advocate for joyful, just, and inclusive open-source text-to-image AI applications.",
+    "summary": "Researcher focused on revealing fault lines in visual culture through text-to-image generative-AI models. Focussed on the impact of open-source AI in the wild and model personalizations.",
     "location": {
       "city": "Zürich",
       "countryCode": "CH",
@@ -23,7 +23,7 @@
       "url": "",
       "startDate": "2024-02",
       "endDate": "NOW",
-      "summary": "Research on text-to-image AI systems and their societal impact",
+      "summary": "Research on open-source text-to-image AI personalizations and their societal impact",
       "highlights": [
         "Investigating toxicity in open-source text-to-image communities",
         "Developing metrics for evaluating foundation model augmentations"
@@ -64,7 +64,19 @@
         "Creating prototypes in the Unity Game Engine",
         "Motion design and 3D assets using Blender and After Effects"
       ]
+    },
+    {
+      "name": "Fraunhofer Institute for Production Technology (IPT)",
+      "position": "Interaction Designer",
+      "url": "https://www.produktion.fraunhofer.de/de/forschung-im-verbund/formate/leitprojekte/evolopro.html", 
+      "startDate": "2019-10",
+      "endDate": "2020-08",
+      "summary": "Design and Development of interactive trade fair exhibits",
+      "highlights": [
+        ""
+      ]
     }
+    
   ],
   "volunteer": [
     {
