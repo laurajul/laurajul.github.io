@@ -1,9 +1,10 @@
 ---
 layout: page
 date: 2022-05-23
-title: Animation in X-Reality – Summer School in Vilnius
-description: Two week Seminar at Gediminas Technical University
-img: assets/img/seminars/2022/animation_x/vilnius.png
+title: Animation in X-Reality
+description: Summer School in Vilnius
+video: assets/img/seminars/2022/animation_x/title_ax.webm
+poster: assets/img/seminars/2022/animation_x/poster_ax.png
 importance: 2
 category: seminars
 giscus_comments: false

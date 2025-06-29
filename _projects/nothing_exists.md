@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Nothing Exists
-description: a project that redirects to another website
+title: Nothing Exists Alone
+description: Interactive sonification through textile
 img: assets/img/art/2025_nothing_exists/title.webp
 #redirect: https://unsplash.com
 importance: 1

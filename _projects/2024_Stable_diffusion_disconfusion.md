@@ -6,7 +6,7 @@ img: assets/img/workshops/rhein_main_05.gif
 date: 2024-05-23
 importance: 1
 url: https://2023.uroboros.design/performative-dialogues-with-ai/
-category: workshops
+category: 
 related_publications: true
 ---
 

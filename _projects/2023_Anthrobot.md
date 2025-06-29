@@ -1,9 +1,9 @@
 ---
 layout: page
-title: ANTHROBOT – A human robot dance performance
-description: A seminar developing a theater performance with an industrial robot arm.
-video: assets/img/seminars/2023/anthrobot/10.webm
-poster: assets/img/seminars/2023/anthrobot/ur3e_02.png
+title: Anthrobot
+description: A human robot dance performance
+video: assets/img/seminars/2023/anthrobot/title_an.webm
+poster: assets/img/seminars/2023/anthrobot/poster_an.png
 importance: 1
 date: 2023-11-15
 category: seminars

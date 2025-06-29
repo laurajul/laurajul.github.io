@@ -1,9 +1,10 @@
 ---
 layout: page
-title: (Dis-)embodied minds, creativity and co-creation
+title: dis-embodied minds
 date: 2022-11-23
-description: with background image
-img: assets/img/seminars/2022_minds.gif
+description: creativity and co-creation with AI
+video: assets/img/seminars/2022/minds/title_em.webm
+poster: assets/img/seminars/2022/minds/poster_em.png
 importance: 3
 category: seminars
 related_publications: true

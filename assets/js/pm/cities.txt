@@ -1,0 +1,516 @@
+Vilnius
+Singapore
+Köln
+Bern
+Istanbul
+Paris
+Madrid
+New Delhi
+Tehran
+Baghdad
+Jerusalem
+Lahore
+Kuwait City
+Kolkata
+Tashkent
+Kabul
+Ulaanbaatar
+Hanoi
+Zurich
+Mumbai
+Skopje
+Kaohsiung
+Hangzhou
+Sarajevo
+Kuala Lumpur
+Moscow
+Kinshasa
+Milano
+Almaty
+Chongqing
+Hong Kong
+Kraków
+Krasnoyarsk
+Guangzhou
+Shenzhen
+Dubai
+Frankfurt
+Ljubljana
+Cairo
+Budapest
+Riyadh
+Bishkek
+Medan
+Brussels
+Accra
+Belgrade
+Wrocław
+Taipei
+Warsaw
+Berlin
+Dortmund
+Algiers
+Zagreb
+Nairobi
+Manama
+Ankara
+Pristina
+Lima
+Bratislava
+Bern
+Paris
+Penang
+Aachen
+Lyon
+Sofia
+Baku
+Ho Chi Minh City
+Vienna
+Bogota
+Chicago
+Bangkok
+Addis Ababa
+Detroit
+Prague
+Athens
+Singapore
+Bucharest
+Manila
+Kuala Lumpur
+Minneapolis
+Rome
+Jerusalem
+Barcelona
+Istanbul
+Los Angeles
+Nice
+Cluj Napoca
+Tehran
+Incheon
+Kuching
+Toronto
+Busan
+Lisbon
+Kyiv
+Santiago
+Yangon
+Munich
+Washington D.C.
+Johannesburg
+Seoul
+Moscow
+Sao Paulo
+Oslo
+Beijing
+Copenhagen
+Jakarta
+Montreal
+San Francisco
+Portland
+Istanbul
+Osaka
+Kyoto
+Kobe
+Sydney
+Seattle
+Denver
+Vancouver
+Houston
+Chiang Mai
+Dublin
+Salt Lake City
+New York City
+Tokyo
+Helsinki
+Stockholm
+Canberra
+Birmingham
+Rotterdam
+London
+Amsterdam
+Auckland
+Melbourne
+Buenos Aires
+Brasilia
+Pretoria
+Conakry
+Libreville
+Abuja
+Kigali
+Bujumbura
+Antananarivo
+Port Louis
+Colombo
+Islamabad
+Dushanbe
+Ashgabat
+Astana
+Yerevan
+Tbilisi
+Amman
+Abu Dhabi
+Kabul
+Algiers
+Andorra la Vella
+St. John's
+Buenos Aires
+Yerevan
+Georgetown
+Canberra
+Vienna
+Baku
+Manama
+Dhaka
+Bridgetown
+Brussels
+Belmopan
+La Paz
+Sarajevo
+Brasília
+Bandar Seri Begawan
+Sofia
+Ouagadougou
+Phnom Penh
+Beijing
+Moroni      
+San José
+Zagreb
+Nicosia
+Prague
+Kinshasa
+Copenhagen
+Dili
+Quito
+Cairo
+San Salvador
+Tallinn
+Addis Ababa
+Suva
+Helsinki
+Mumbai
+Ahvaz
+Rezé
+Bellevue
+Moncton
+Yokkaichi
+São Paulo
+Martinique
+Braşov
+Gangtok
+Salerno
+Miyakonojo
+Harrisonburg
+Tbilisi
+Bhopal
+Waterford City
+Isfahan
+Ourense
+Aguascalientes
+Guwahati
+Chandigarh
+Nashik
+Mérida
+Baia Mare
+Bahadurgarh
+Washington
+Le Havre
+Udon Thani
+Durgapur
+Agartala
+Raahe
+Oklahoma
+Bergen
+Martin
+Jacksonville
+Lucknow
+Mashhad
+Thiruvananthapuram
+Sintra
+Howrah
+Stavanger
+La Roche-sur-Yon
+Horta
+Nakhon Sawan
+Naharlagun
+Tromso
+Espoo
+Vitoria-Gasteiz
+Länsi-Turunmaa
+Alesund
+Yamaga
+Saint John
+Ankleshwar
+Lahti
+Jeju
+Kristiansand
+Zaragoza
+Arak
+Asansol
+Trondheim
+Lima
+Pali
+Hubballi
+Tampere
+Salamanca
+Busan
+Joetsu
+Morelos
+Selangor
+Yadgir
+Jabalpur
+Coimbatore
+Phuket
+Medellín
+Anchorage
+Rajamahendravaram
+Roma
+Copenhagen
+Huangshi
+Pietarsaari
+Irapuato
+Kerman
+Georgia
+Surat Thani
+Bhilai
+Kushiro
+Joensuu
+Focșani
+Esztergom
+Cuautla
+Davenport
+Yazd
+Tel Aviv
+Oregon
+Valencia
+Udaipur
+Cordoba
+Wyoming
+Ujjain
+Bengaluru
+Bandar Abbas
+Cholet
+Oulu
+Durango
+Samut Sakhon
+Oda
+Toyohashi
+Kota
+Delhi
+Mae Sot
+Pori
+Tomakomai
+Monclova
+Bhagalpur
+Nanao
+Saint-Martin
+Tabriz
+Harstad
+León
+Kaliningrad
+Kalaburagi
+Fresno
+Belgaum
+Johor
+Nijar
+Drammen
+Sevilla
+Siilinjärvi
+Nakhon Phanom
+Suwon-si
+Corpus Christi
+Frosinone
+San Diego
+Semnan
+València
+Santa Cruz
+Bathurst
+Dehradun
+Nan
+Hamadan
+Guyane
+Radom
+Yakima
+Le Mans
+Houston
+Patna
+Riverside
+Murcia
+Des Moines
+Bodo
+Kemi
+Mossel Bay
+Mo i Rana
+Zahedan
+Bogota
+Dearborn
+Datteln
+Duisburg
+Newcastle
+Jinan
+Tuzla
+Cottbus
+Bayswater
+Mladá Boleslav
+Wolfsburg
+Munich
+Stuttgart
+Ingolstadt
+Yokohama
+Detroit
+Seoul
+Gothenburg
+Turin
+Boulogne-Billancourt
+Shanghai
+Mumbai
+Hiroshima
+Petah Tikva
+Vientiane
+Trabzon
+Clermont
+Lausanne
+Ashdod
+Haifa
+Basel
+Saint Petersburg
+Waterloo
+Van
+Chiba
+Offenbach
+Mainz
+Friedrichshafen
+Birmingham
+Manchester
+Odessa
+Geneva
+Split
+Rijeka
+Thessaloniki
+Patras
+Rotterdam
+The Hague
+Graz
+Linz
+Porto
+Vila Nova de Gaia
+Timișoara
+Kraków
+Łódź
+Marseille
+Lyon
+Debrecen
+Szeged
+Bergen
+Stavanger
+Batumi
+Kutaisi
+Espoo
+Brno
+Ostrava
+Antwerp
+Ghent
+Gothenburg
+Malmö
+Novi Sad
+Niš
+Kaunas
+Klaipėda
+Bitola
+Kumanovo
+Tartu
+Narva
+Limassol
+Nicosia
+Esch-sur-Alzette
+Banja Luka
+Tuzla
+Nikšić
+Podgorica
+Milan
+Naples
+Cork
+Limerick
+Birkirkara
+Mosta
+Dietikon
+Thrissur
+Kollam
+Kozhikode
+Hassan
+Malta
+Socorro
+Bayswater
+Mladá Boleslav
+Wolfsburg
+Ingolstadt
+Aberdeen
+Watertown
+Florence
+Kihei
+Billings
+Carlsbad
+Pendleton
+Hobbs
+Amarillo
+Austin
+Laurel
+Yakima
+Spanish Fork
+Milton
+Eau Claire
+Cleveland
+Bellingham
+Kenosha
+Evansville
+Toledo
+Boston
+Augsburg
+Ramat HaSharon
+Kfar Saba
+Konya
+Zonguldak
+Malatya
+Izmir
+Düsseldorf
+Bremen
+Utrecht
+Ulm
+Raanana
+Artvin
+Medford
+Bonn
+Anchorage
+Guadalajara
+Perth
+Valencia
+Salvador
+Puebla
+Ahmedabad
+Monterrey
+San Juan
+Shenyang
+Faisalabad
+Medellín
+Campinas
+Yogyakarta
+Busan
+Hangzhou
+Bamako
+Ouagadougou
+Kingston
+Suva
+Hamburg
+Hanover
+Leverkusen
+Malaga
+Venice
+Essen
+Wasa
+Koblenz
+Givataim
+Ramat Gan
+Bologna
+
+
+
+
