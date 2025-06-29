@@ -394,7 +394,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-animation-in-x-reality-summer-school-in-vilnius",
+          section: "News",},{id: "projects-borrowed-limbs",
+          title: 'Borrowed Limbs',
+          description: "Text-to-image short film",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2022_Borrowed_Limbs/";
+            },},{id: "projects-animation-in-x-reality-summer-school-in-vilnius",
           title: 'Animation in X-Reality – Summer School in Vilnius',
           description: "Two week Seminar at Gediminas Technical University",
           section: "Projects",handler: () => {
@@ -404,8 +409,8 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2022_disembodied/";
-            },},{id: "projects-animation-in-x-reality-summer-school-in-vilnius",
-          title: 'Animation in X-Reality – Summer School in Vilnius',
+            },},{id: "projects-dark-ecology",
+          title: 'Dark Ecology',
           description: "Two week Seminar at Gediminas Technical University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2023_Dark_Ecology/";
@@ -424,6 +429,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2023_I_Uroburus/";
+            },},{id: "projects-syntesizing-meaning-workshop-series",
+          title: 'Syntesizing Meaning - Workshop Series',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2023_Syntesizing_Meaning/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
