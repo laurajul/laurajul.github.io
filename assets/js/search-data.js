@@ -394,19 +394,24 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-borrowed-limbs",
+          section: "News",},{id: "projects-particulate-matters",
+          title: 'Particulate Matters',
+          description: "An interactive data visualization of fine particulate matter.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2016_Particulate_Matter/";
+            },},{id: "projects-borrowed-limbs",
           title: 'Borrowed Limbs',
           description: "Text-to-image short film",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2022_Borrowed_Limbs/";
-            },},{id: "projects-animation-in-x-reality-summer-school-in-vilnius",
-          title: 'Animation in X-Reality – Summer School in Vilnius',
-          description: "Two week Seminar at Gediminas Technical University",
+            },},{id: "projects-animation-in-x-reality",
+          title: 'Animation in X-Reality',
+          description: "Summer School in Vilnius",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2022_Animation_X/";
-            },},{id: "projects-dis-embodied-minds-creativity-and-co-creation",
-          title: '(Dis-)embodied minds, creativity and co-creation',
-          description: "with background image",
+            },},{id: "projects-dis-embodied-minds",
+          title: 'dis-embodied minds',
+          description: "creativity and co-creation with AI",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2022_disembodied/";
             },},{id: "projects-dark-ecology",
@@ -414,9 +419,9 @@ ninja.data = [{
           description: "Two week Seminar at Gediminas Technical University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2023_Dark_Ecology/";
-            },},{id: "projects-anthrobot-a-human-robot-dance-performance",
-          title: 'ANTHROBOT – A human robot dance performance',
-          description: "A seminar developing a theater performance with an industrial robot arm.",
+            },},{id: "projects-anthrobot",
+          title: 'Anthrobot',
+          description: "A human robot dance performance",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2023_Anthrobot/";
             },},{id: "projects-performative-dialogues-with-ai-at-uroboros-festival",
@@ -454,9 +459,9 @@ ninja.data = [{
           description: "a project with a background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-nothing-exists",
-          title: 'Nothing Exists',
-          description: "a project that redirects to another website",
+            },},{id: "projects-nothing-exists-alone",
+          title: 'Nothing Exists Alone',
+          description: "Interactive sonification through textile",
           section: "Projects",handler: () => {
               window.location.href = "/projects/nothing_exists/";
             },},{
