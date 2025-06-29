@@ -3,10 +3,24 @@ layout: page
 date: 2022-05-23
 title: Animation in X-Reality – Summer School in Vilnius
 description: Two week Seminar at Gediminas Technical University
-img: assets/img/seminars/2022_animation_X.gif
+img: assets/img/seminars/2022/animation_x/vilnius.png
 importance: 2
 category: seminars
 giscus_comments: false
+---
+
+<div class="mt-3">
+  {% include figure.liquid 
+     loading="eager" 
+     path="assets/img/seminars/2022/animation_x/03.webp" 
+     title="Creative Process Overview" 
+     class="img-fluid rounded z-depth-1 w-100" 
+  %}
+</div>
+<div class="caption">
+  Projection mapping test on a replica of the Vilnius city hall to test the final projection.
+</div>
+
 ---
 
 The Animation in X-Reality summer school explored the expanded field of animation, encompassing motion capture, projection mapping, sound production, and creative artificial intelligence. Participants engaged in practical workshops led by collaborating universities, alongside enriching field trips and cultural activities.
@@ -15,7 +29,7 @@ This project was a collaborative effort among four universities: the Department 
 
 ---
 
-## KISD's Contribution: AI for Filmmaking
+## KISD's Contribution: AI for projection mapping
 
 KISD's workshop focused on collaborating with and appropriating artificial intelligence for filmmaking. A novel text-to-image (TTI) approach was applied in conjunction with various other neural architecture-based techniques, such as upscaling and frame interpolation. This involved combining image synthesis processes using text-to-image with traditional creative techniques like animation, sketching, and photography, fostering an experimental human-machine co-creation.
 
@@ -29,9 +43,9 @@ The workshop provided hands-on experience with Python commands, Jupyter Notebook
 
 ## Other Workshops and Cultural Activities
 
-The host university, Vilnius Gediminas Technical University, offered a workshop on music production with composer Marius Salynas, and another showcasing different motion capturing techniques, specifically optical motion capture. Tania de León Yong from the Academy of Media Arts Cologne led a workshop on projection mapping practice and the software Resolume.
+The host university, Vilnius Gediminas Technical University, offered a workshop on music production with composer Marius Salynas, and another showcasing different motion capturing techniques, specifically optical motion capture. [Tania de León Yong](https://www.khm.de/lehrende/id.28912.dr-tania-de-leon-yong/) from the Academy of Media Arts Cologne led a workshop on projection mapping practice and the software Resolume.
 
-## Cultural activities included a trip to the Palace of Grand Dukes of Lithuania, a visit to a contemporary dance performance, a trip to the historic stronghold of Trakai, and a city tour in Vilnius with students from the host university.
+Cultural activities included a trip to the Palace of Grand Dukes of Lithuania, a visit to a contemporary dance performance, a trip to the historic stronghold of Trakai, and a city tour in Vilnius with students from the host university.
 
 ## Project Outcome and Follow-up
 
@@ -43,13 +57,13 @@ The project culminated in a projection mapping presentation on a model of the Vi
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/placeholder_process_1.jpg" title="Process Image 1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/seminars/2022/animation_x/02.jpg" title="Process Image 1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/placeholder_process_2.jpg" title="Process Image 2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/seminars/2022/animation_x/03.jpg" title="Process Image 2" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/placeholder_process_3.jpg" title="Process Image 3" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/seminars/2022/animation_x/01.gif" title="Process Image 3" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -58,7 +72,7 @@ The project culminated in a projection mapping presentation on a model of the Vi
 
 ---
 
-## Participants
+## Students
 
 - Maxim Diehl
 - Alex Koch
