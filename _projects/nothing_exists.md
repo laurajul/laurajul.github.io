@@ -2,10 +2,10 @@
 layout: page
 title: Nothing Exists
 description: a project that redirects to another website
-img: assets/img/art/2025_nothing_exists/2025_nothing_exists.gif
+img: assets/img/art/2025_nothing_exists/title.webp
 #redirect: https://unsplash.com
-importance: 3
-category: 2025
+importance: 1
+category: selected artworks
 ---
 
 Our new collaborator arrived in a long rectangular box, stretching the table.

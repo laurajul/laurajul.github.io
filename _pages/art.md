@@ -5,7 +5,7 @@ permalink: /art/
 description: Some art
 nav: true
 nav_order: 3
-display_categories: [2025, 2022, 2015, 2016, 2017]
+display_categories: [selected artworks]
 horizontal: false
 ---
 
