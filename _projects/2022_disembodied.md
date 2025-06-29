@@ -1,7 +1,7 @@
 ---
 layout: page
 title: (Dis-)embodied minds, creativity and co-creation
-date: 2022-11-23 
+date: 2022-11-23
 description: with background image
 img: assets/img/seminars/2022_minds.gif
 importance: 3
@@ -9,10 +9,10 @@ category: seminars
 related_publications: true
 ---
 
-Designers in the silicon age proficiently mediate between the visceral and digital realms, when designing with and around technology. 
-But how exactly do we reconcile disembodied technologies such as AI, with those aspects of the design profession that emphasize and often rely on tacit knowledge, gained through bodily multisensory experience and interaction? 
-If AI, especially with the rise of Machine Learning heralds a shift from functional programming to systems being capable of performing tasks that are beyond mere automation, we could classify those systems as a new breed (Darling) – a new species. 
-Following this train of thought raises the question of where will we designers place ourselves into the equation in order to proactively anticipate this new form of interspecies co-creation. How will we apply our tacit competencies in this novel union? In order to track down these answers, we will tie into the concurrent discourse around AI, AGI and embodiment that range from materialist skepticism, regarding ML systems as mere correlation machines, to technological saviorism and farther to esoteric techno-animism. 
+Designers in the silicon age proficiently mediate between the visceral and digital realms, when designing with and around technology.
+But how exactly do we reconcile disembodied technologies such as AI, with those aspects of the design profession that emphasize and often rely on tacit knowledge, gained through bodily multisensory experience and interaction?
+If AI, especially with the rise of Machine Learning heralds a shift from functional programming to systems being capable of performing tasks that are beyond mere automation, we could classify those systems as a new breed (Darling) – a new species.
+Following this train of thought raises the question of where will we designers place ourselves into the equation in order to proactively anticipate this new form of interspecies co-creation. How will we apply our tacit competencies in this novel union? In order to track down these answers, we will tie into the concurrent discourse around AI, AGI and embodiment that range from materialist skepticism, regarding ML systems as mere correlation machines, to technological saviorism and farther to esoteric techno-animism.
 
     ---
     layout: page

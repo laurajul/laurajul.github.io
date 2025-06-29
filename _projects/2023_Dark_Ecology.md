@@ -1,7 +1,7 @@
 ---
 layout: page
-date: 2023-05-23 
-title: Animation in X-Reality – Summer School in Vilnius
+date: 2023-05-23
+title: Dark Ecology
 description: Two week Seminar at Gediminas Technical University
 img: assets/img/seminars/eco
 importance: 2
@@ -31,8 +31,7 @@ The workshop provided hands-on experience with Python commands, Jupyter Notebook
 
 The host university, Vilnius Gediminas Technical University, offered a workshop on music production with composer Marius Salynas, and another showcasing different motion capturing techniques, specifically optical motion capture. Tania de León Yong from the Academy of Media Arts Cologne led a workshop on projection mapping practice and the software Resolume.
 
-Cultural activities included a trip to the Palace of Grand Dukes of Lithuania, a visit to a contemporary dance performance, a trip to the historic stronghold of Trakai, and a city tour in Vilnius with students from the host university.
----
+## Cultural activities included a trip to the Palace of Grand Dukes of Lithuania, a visit to a contemporary dance performance, a trip to the historic stronghold of Trakai, and a city tour in Vilnius with students from the host university.
 
 ## Project Outcome and Follow-up
 
@@ -61,21 +60,21 @@ The project culminated in a projection mapping presentation on a model of the Vi
 
 ## Participants
 
-* Maxim Diehl
-* Alex Koch
-* Johannes Growe
-* Joshua Probst
-* Bessie Normand
-* Samia Rachid
-* Bea Timmermann
+- Maxim Diehl
+- Alex Koch
+- Johannes Growe
+- Joshua Probst
+- Bessie Normand
+- Samia Rachid
+- Bea Timmermann
 
 ---
 
 ## KISD Faculty
 
-* [Lasse Scherffig](http://lassescherffig.de/)
-* Laura Wagner
-* [Lisa Marleen Mantel](https://lisamarleen.de/)
+- [Lasse Scherffig](http://lassescherffig.de/)
+- Laura Wagner
+- [Lisa Marleen Mantel](https://lisamarleen.de/)
 
 ---
 
@@ -87,10 +86,10 @@ The project culminated in a projection mapping presentation on a model of the Vi
 
 ## Project Partners
 
-* Vilnius Gediminas Technical University
-* Tampere University of Applied Sciences
-* Academy of Media Arts Cologne
-* BMBF-Project KITeGG: Making AI Tangible And Comprehensible: Connecting Technology And Society Through Design
+- Vilnius Gediminas Technical University
+- Tampere University of Applied Sciences
+- Academy of Media Arts Cologne
+- BMBF-Project KITeGG: Making AI Tangible And Comprehensible: Connecting Technology And Society Through Design
 
 ---
 

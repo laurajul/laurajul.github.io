@@ -30,8 +30,8 @@ The **ANTHROBOT** project delves into the intricate dynamics of human-machine re
 
 The project was brought to life in close collaboration with the **DIPHTHONG collective** ([diphthong.art](https://diphthong.art/en/info-en/)), leveraging their expertise in performance and artistic direction. The development unfolded in two intensive phases:
 
-* **Phase 1 (October 17th - November 13th, 2023):** This initial stage involved foundational meetings and workshops held on Tuesdays and Thursdays, focusing on conceptualization, basic choreography, and technical setup.
-* **Phase 2 (November 13th - November 30th, 2023):** A more intensive period dedicated to refining the choreography, integrating technical systems, and preparing the theater piece for its public debut.
+- **Phase 1 (October 17th - November 13th, 2023):** This initial stage involved foundational meetings and workshops held on Tuesdays and Thursdays, focusing on conceptualization, basic choreography, and technical setup.
+- **Phase 2 (November 13th - November 30th, 2023):** A more intensive period dedicated to refining the choreography, integrating technical systems, and preparing the theater piece for its public debut.
 
 The culmination of this work was a series of performances from **December 1st to 3rd, 2023, at Kunsthafen Rhenania**, offering the public a chance to experience the unique human-robot dialogue firsthand. The project was developed as a seminar at **KISD (Köln International School of Design)** ([kisd.de](https://kisd.de/)).
 
@@ -53,9 +53,8 @@ At the core of ANTHROBOT's interactive capabilities is a custom **UR3e MQTT Cont
 
 **Key Features of the UR3e MQTT Controller:**
 
-* **Program Control:** Remotely loads and plays `.urp` programs stored directly on the robot.
-* **Audio Playback:** Triggers local audio files from the controller (e.g., a Raspberry Pi), enriching the performance with soundscapes.
-* **OSC Integration:** Sends Open Sound Control (OSC) cues to other systems, such as QLab, for synchronized multimedia elements.
-* **Freedrive Mode:** Remotely enables and disables the robot's freedrive mode, allowing for physical interaction and collaborative movement during the performance.
-* **Flexible Client Control:** Accepts MQTT messages from any client, including custom smartphone dashboards built with apps like "IoT MQTT Panel," enabling intuitive, real-time control.
-
+- **Program Control:** Remotely loads and plays `.urp` programs stored directly on the robot.
+- **Audio Playback:** Triggers local audio files from the controller (e.g., a Raspberry Pi), enriching the performance with soundscapes.
+- **OSC Integration:** Sends Open Sound Control (OSC) cues to other systems, such as QLab, for synchronized multimedia elements.
+- **Freedrive Mode:** Remotely enables and disables the robot's freedrive mode, allowing for physical interaction and collaborative movement during the performance.
+- **Flexible Client Control:** Accepts MQTT messages from any client, including custom smartphone dashboards built with apps like "IoT MQTT Panel," enabling intuitive, real-time control.
