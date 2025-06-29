@@ -404,6 +404,11 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2022_disembodied/";
+            },},{id: "projects-animation-in-x-reality-summer-school-in-vilnius",
+          title: 'Animation in X-Reality – Summer School in Vilnius',
+          description: "Two week Seminar at Gediminas Technical University",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2023_Dark_Ecology/";
             },},{id: "projects-anthrobot-a-human-robot-dance-performance",
           title: 'ANTHROBOT – A human robot dance performance',
           description: "A seminar developing a theater performance with an industrial robot arm.",
