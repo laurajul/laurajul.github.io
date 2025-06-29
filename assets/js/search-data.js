@@ -434,6 +434,11 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2023_Syntesizing_Meaning/";
+            },},{id: "projects-stable-diffusion-disconfusion",
+          title: 'Stable Diffusion Disconfusion',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2024_Stable_diffusion_disconfusion/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
