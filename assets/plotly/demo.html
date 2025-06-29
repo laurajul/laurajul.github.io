@@ -3464,20 +3464,17 @@
                         if (_t < 0) {
                           var a = o(e);
                           if (a.scrollX || a.scrollY) {
-                            var s = (n = t
-                              .select("body")
-                              .append("svg")
-                              .style(
-                                {
-                                  position: "absolute",
-                                  top: 0,
-                                  left: 0,
-                                  margin: 0,
-                                  padding: 0,
-                                  border: "none",
-                                },
-                                "important",
-                              ))[0][0].getScreenCTM();
+                            var s = (n = t.select("body").append("svg").style(
+                              {
+                                position: "absolute",
+                                top: 0,
+                                left: 0,
+                                margin: 0,
+                                padding: 0,
+                                border: "none",
+                              },
+                              "important",
+                            ))[0][0].getScreenCTM();
                             (_t = !(s.f || s.e)), n.remove();
                           }
                         }
@@ -109753,13 +109750,11 @@ object-assign
                     }
                     function W(r) {
                       return (
-                        r
-                          .call(u.font, H)
-                          .attr({
-                            "text-anchor":
-                              { left: "start", right: "end" }[e.align] ||
-                              "middle",
-                          }),
+                        r.call(u.font, H).attr({
+                          "text-anchor":
+                            { left: "start", right: "end" }[e.align] ||
+                            "middle",
+                        }),
                         h.convertToTspans(r, t, Z),
                         r
                       );
@@ -151291,17 +151286,15 @@ object-assign
                       ) {
                         var i = e._plots[r[n]]._scene2d,
                           a = i.toImage("png");
-                        e._glimages
-                          .append("svg:image")
-                          .attr({
-                            xmlns: o.svg,
-                            "xlink:href": a,
-                            x: 0,
-                            y: 0,
-                            width: "100%",
-                            height: "100%",
-                            preserveAspectRatio: "none",
-                          }),
+                        e._glimages.append("svg:image").attr({
+                          xmlns: o.svg,
+                          "xlink:href": a,
+                          x: 0,
+                          y: 0,
+                          width: "100%",
+                          height: "100%",
+                          preserveAspectRatio: "none",
+                        }),
                           i.destroy();
                       }
                     }),
@@ -151993,17 +151986,15 @@ object-assign
                           o = a.domain,
                           s = a._scene,
                           c = s.toImage("png");
-                        e._glimages
-                          .append("svg:image")
-                          .attr({
-                            xmlns: l.svg,
-                            "xlink:href": c,
-                            x: n.l + n.w * o.x[0],
-                            y: n.t + n.h * (1 - o.y[1]),
-                            width: n.w * (o.x[1] - o.x[0]),
-                            height: n.h * (o.y[1] - o.y[0]),
-                            preserveAspectRatio: "none",
-                          }),
+                        e._glimages.append("svg:image").attr({
+                          xmlns: l.svg,
+                          "xlink:href": c,
+                          x: n.l + n.w * o.x[0],
+                          y: n.t + n.h * (1 - o.y[1]),
+                          width: n.w * (o.x[1] - o.x[0]),
+                          height: n.h * (o.y[1] - o.y[0]),
+                          preserveAspectRatio: "none",
+                        }),
                           s.destroy();
                       }
                     }),
@@ -154235,17 +154226,15 @@ object-assign
                         var s = e[r[i]],
                           h = s.domain,
                           d = s._subplot.toImage("png");
-                        e._glimages
-                          .append("svg:image")
-                          .attr({
-                            xmlns: l.svg,
-                            "xlink:href": d,
-                            x: n.l + n.w * h.x[0],
-                            y: n.t + n.h * (1 - h.y[1]),
-                            width: n.w * (h.x[1] - h.x[0]),
-                            height: n.h * (h.y[1] - h.y[0]),
-                            preserveAspectRatio: "none",
-                          });
+                        e._glimages.append("svg:image").attr({
+                          xmlns: l.svg,
+                          "xlink:href": d,
+                          x: n.l + n.w * h.x[0],
+                          y: n.t + n.h * (1 - h.y[1]),
+                          width: n.w * (h.x[1] - h.x[0]),
+                          height: n.h * (h.y[1] - h.y[0]),
+                          preserveAspectRatio: "none",
+                        });
                         var m = c.select(s._subplot.div);
                         if (
                           !(
@@ -154294,15 +154283,13 @@ object-assign
                             .replace("Improve this map", ""),
                           y = e._glimages.append("g"),
                           x = y.append("text");
-                        x.text(v)
-                          .classed("static-attribution", !0)
-                          .attr({
-                            "font-size": 12,
-                            "font-family": "Arial",
-                            color: "rgba(0, 0, 0, 0.75)",
-                            "text-anchor": "end",
-                            "data-unformatted": v,
-                          });
+                        x.text(v).classed("static-attribution", !0).attr({
+                          "font-size": 12,
+                          "font-family": "Arial",
+                          color: "rgba(0, 0, 0, 0.75)",
+                          "text-anchor": "end",
+                          "data-unformatted": v,
+                        });
                         var b = u.bBox(x.node()),
                           _ = n.w * (h.x[1] - h.x[0]);
                         if (b.width > _ / 2) {
@@ -154314,15 +154301,13 @@ object-assign
                             (b = u.bBox(x.node()));
                         }
                         x.attr("transform", a(-3, 8 - b.height)),
-                          y
-                            .insert("rect", ".static-attribution")
-                            .attr({
-                              x: -b.width - 6,
-                              y: -b.height - 3,
-                              width: b.width + 6,
-                              height: b.height + 3,
-                              fill: "rgba(255, 255, 255, 0.75)",
-                            });
+                          y.insert("rect", ".static-attribution").attr({
+                            x: -b.width - 6,
+                            y: -b.height - 3,
+                            width: b.width + 6,
+                            height: b.height + 3,
+                            fill: "rgba(255, 255, 255, 0.75)",
+                          });
                         var T = 1;
                         b.width + 6 > _ && (T = _ / (b.width + 6));
                         var k = [n.l + n.w * h.x[1], n.t + n.h * (1 - h.y[0])];
@@ -154482,12 +154467,10 @@ object-assign
                       return this.subplot.belowLookup["layout-" + this.index];
                     }),
                     (l.updateImage = function (t) {
-                      this.subplot.map
-                        .getSource(this.idSource)
-                        .updateImage({
-                          url: t.source,
-                          coordinates: t.coordinates,
-                        });
+                      this.subplot.map.getSource(this.idSource).updateImage({
+                        url: t.source,
+                        coordinates: t.coordinates,
+                      });
                       var e = this.findFollowingMapboxLayerId(
                         this.lookupBelow(),
                       );
@@ -155581,13 +155564,11 @@ object-assign
                             .append("div")
                             .attr("id", "hiddenform")
                             .style("display", "none"),
-                          i = r
-                            .append("form")
-                            .attr({
-                              action: e + "/external",
-                              method: "post",
-                              target: "_blank",
-                            });
+                          i = r.append("form").attr({
+                            action: e + "/external",
+                            method: "post",
+                            target: "_blank",
+                          });
                         return (
                           (i
                             .append("input")
@@ -166061,14 +166042,10 @@ object-assign
                           ? i.identity
                           : [],
                       );
-                    d
-                      .enter()
-                      .append("path")
-                      .attr("class", "mean")
-                      .style({
-                        fill: "none",
-                        "vector-effect": "non-scaling-stroke",
-                      }),
+                    d.enter().append("path").attr("class", "mean").style({
+                      fill: "none",
+                      "vector-effect": "non-scaling-stroke",
+                    }),
                       d.exit().remove(),
                       d.each(function (t) {
                         var e = c.c2l(t.pos + f, !0),
@@ -185142,15 +185119,13 @@ object-assign
                       A = s.rangefont,
                       M = i.extendDeepNoArrays({}, c, {
                         color: l.map(
-                          n.scale
-                            .linear()
-                            .domain(
-                              T({
-                                values: l,
-                                range: [f.min, f.max],
-                                _length: s._length,
-                              }),
-                            ),
+                          n.scale.linear().domain(
+                            T({
+                              values: l,
+                              range: [f.min, f.max],
+                              _length: s._length,
+                            }),
+                          ),
                         ),
                         blockLineCount: y.blockLineCount,
                         canvasOverdrag: y.overdrag * y.canvasPixelRatio,
