@@ -3,7 +3,8 @@ layout: page
 date: 2023-05-23
 title: Dark Ecology
 description: Two week Seminar at Gediminas Technical University
-img: assets/img/seminars/eco
+video: assets/img/seminars/2023/dark_ecology/title_ec.webm
+poster: assets/img/seminars/2023/dark_ecology/poster_ec.png
 importance: 2
 category: seminars
 giscus_comments: false
