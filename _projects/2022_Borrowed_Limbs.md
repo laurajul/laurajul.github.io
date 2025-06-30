@@ -12,12 +12,11 @@ category: selected artworks
 #### 2021 - 2022
 
 ---
-The experimental short film “Borrowed Limbs”, created in collaboration between the two designers Lisa-Marleen Mantel and Laura Juliane Wagner, emphasizes the mediating role speculative design has in the face of disruptive technological advancements, as it allows for the exploration and simulation of ethical issues. The short film is centered around an AI main character who uses the human body as a sensing device to gain a physical understanding of their surroundings. Influenced by posthuman thinkers, the work aims to provoke a discussion about Cartesian notions of disembodied intelligence.
+The experimental short film “Borrowed Limbs”, created in collaboration with [Lisa-Marleen Mantel](https://lisamarleen.de/), emphasizes the mediating role speculative design has in the face of disruptive technological advancements, as it allows for the exploration and simulation of ethical issues. The short film is centered around an AI main character who uses the human body as a sensing device to gain a physical understanding of their surroundings. Influenced by posthuman thinkers, the work aims to provoke a discussion about Cartesian notions of disembodied intelligence.
 
 The work combines recent developments in philosophy and cognitive science with state-of-the-art technologies and artistic practice: Main part of the film was produced with a machine-learning-backed process called “CLIP guided diffusion”. This method enables image synthesis based on language prompts. Prompts are carefully refined in a human-machine communication loop. In a way, the practical processes involved in producing the film reflect the speculative idea of an ongoing dialogue found in the narrative. The work was created as part of the Master Research at KISD – Cologne International School of Design (Faculty of TH Köln).
 
-Here is your information formatted as a clean, structured table listing the screenings of the short film *Borrowed Limbs*:
-
+---
 
 <!-- Spacer and Divider -->
 <div style="margin: 3rem 0;">
@@ -53,7 +52,7 @@ Here is your information formatted as a clean, structured table listing the scre
   <tbody>
     <tr>
       <td>August 2022</td>
-      <td>Ars Electronica – <em>Welcome to Planet B</em> (Ars Electronica Animation Festival)</td>
+      <td><a href="https://ars.electronica.art/planetb/en/welcome-to-planetb/" target="_blank" rel="noopener">Ars Electronica</a></td>
       <td>Linz, Austria</td>
     </tr>
     <tr>
@@ -63,10 +62,15 @@ Here is your information formatted as a clean, structured table listing the scre
     </tr>
     <tr>
       <td>August 2022</td>
-      <td>Creative Coding Utrecht</td>
+       <td><a href="https://site.gardening.nu/en/event/gardening" target="_blank" rel="noopener">Gardening Amelisweerd</a></td>
       <td>Utrecht, the Netherlands</td>
     </tr>
-    <tr>
+      <tr>
+        <td>August 2022</td>
+        <td><a href="https://example.com/phantom-horizon" target="_blank" rel="noopener">Phantom Horizon</a></td>
+        <td>Künstlerhaus Bethanien</td>
+      </tr>
+      <tr>
       <td>August 2022</td>
       <td>KISD Parcours</td>
       <td>Cologne, Germany</td>
