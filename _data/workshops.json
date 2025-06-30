@@ -1,0 +1,151 @@
+
+[
+{
+"title": "Text-to-Image AI Personalization in the Wild | talk",
+"location": "DHCH25@, Istituto Svizzero di Roma, Italy",
+"date": "2024-06-12",
+"description": "Talk about societal implications of text-to-image AI personalization, focusing on misogyny and abusive practices such as deepfakes and image-based abuse.",
+"url": "https://dh-ch.ch/"
+},
+{
+"title": "Stable Diffusion Dis-Confusion, workshop",
+"location": "Hidden Layers Conference, Cologne, Germany",
+"date": "2024-06-12",
+"description": "A one-day workshop, exploring the modularity of open-source text-to-image tools with ComfyUI",
+"url": "https://hiddenlayers.de/"
+},
+  {
+    "title": "Synthesizing Meaning at Elastique.",
+    "location": "Elastique., Cologne, Germany",
+    "date": "2024-01-12",
+    "description": "A one-day workshop with senior art director Lisa Marleen Mantel focusing on developing collaborative pipelines and workflows, such as modular libraries, for a design agency using open-source text-to-image tools."
+  },
+  {
+    "title": "Collaborative Diffusion, Presentation and Workshop",
+    "location": "Uroboros festival, Prague, Czechia",
+    "date": "2023-12-08 to 2023-12-09",
+    "description": "A collaborative experimental micro-workshop with Lenka Hamosova, using text-to-image outpainting in a shared canvas and reflecting on taxonomies in multimodal AI systems."
+  },
+  {
+    "title": "Dark Ecology",
+    "location": "Flora (botanical garden), Cologne, Germany",
+    "date": "2023-10 to 2023-12",
+    "description": "A seminar in collaboration with the Flora (botanical garden in Cologne) with Prof Dr. Lasse Scherffig and Burg Halle Giebichtenstein."
+  },
+  {
+    "title": "Synthesizing Meaning at Werkwoche, workshop",
+    "location": "Hochschule Augsburg, Germany",
+    "date": "2023-11-13 to 2023-11-15",
+    "description": "A 3-day intensive workshop with Lisa Marleen Mantel using a server running JupyterHub, interfacing with a cluster of NVIDIA A100 GPUs."
+  },
+  {
+    "title": "Synthesizing Meaning, workshop",
+    "location": "TH OWL Detmold, Germany",
+    "date": "2023-11-10 to 2023-11-11",
+    "description": "A 3-day intensive workshop with Lisa Marleen Mantel about text-to-image AI using Jupyter GoogleColab Notebooks."
+  },
+  {
+    "title": "Animation with text-to-image AI, workshop",
+    "location": "Hochschule Mainz Fachbereich Gestaltung, Germany",
+    "date": "2023-10-30 and 2023-11-06",
+    "description": "A 2-day intensive workshop with Maika Dieterich for design master's students, focusing on taxonomies in natural sciences and machine learning (i.e., Imagenet) and animation with open-source text-to-image AI, as part of the KITEGG research project."
+  },
+  {
+    "title": "AI PANIC!!111!, workshop",
+    "location": "Liepāja University, Latvia",
+    "date": "2023-10-11 to 2023-10-14",
+    "description": "A 6-day intensive workshop with Lisa Marleen Mantel using a JupyterHub Cloud instance, interfacing with a cluster of NVIDIA A100 GPUs."
+  },
+  {
+    "title": "Embedding 'Schnubbeldibu' with Alexa Steinbrück, Presentation",
+    "location": "Uroboros festival, Prague, Czechia",
+    "date": "2023-07-07 to 2023-07-08",
+    "description": "A small intervention and public presentation with Alexa Steinbrück and Lenka Hamosova about training a Stable Diffusion Embedding for a new entity, the 'Schnubbeldibu', using a JupyterHub Cloud instance and a cluster of NVIDIA A100 GPUs.",
+    "url": "https://www.instagram.com/p/CvzUYDwLRK9/?img_index=7"
+},
+{
+    "title": "(dis-)embodied minds - KI, Kreativität und Ko-Kreation Talk",
+    "location": "Bergische Universität Wuppertal, Germany",
+    "date": "2023-06-13",
+    "description": "A talk as a contribution to the lecture-series 'somehow affected'.",
+    "url": "https://mr.uni-wuppertal.de/dim/aktuelles/dis-embodied-minds-ki-kreativitaet-und-ko-kreation"
+  },
+  {
+    "title": "ADVERSARIAL ANIMATION",
+    "location": "Tampere, Finland",
+    "date": "2023-05",
+    "description": "A summer school with Dr. Lasse Scherffig and Dr. Tania de Leon exploring artificial life and the complexity that emerges from the simple rules and interactions of simulated creatures."
+  },
+  {
+    "title": "Terminator oder Trumpfkarte - Was bedeutet KI für Produktdesigner*innen?",
+    "location": "Kölner Passagen, Cologne, Germany",
+    "date": "2023-06-03",
+    "description": "A panel talk as a contribution to the lecture-series 'somehow affected'."
+  },
+  {
+    "title": "Synthesizing Meaning II Workshop",
+    "location": "Hochschule Ostwestfahlen-Lippe, Germany",
+    "date": "2023-04-20 to 2023-04-23",
+    "description": "A 3-day intensive workshop with Lisa Marleen Mantel for creating animations with Stable Diffusion and combining applied AI with traditional design skills."
+  },
+  {
+    "title": "Students and AI Team Up to Create a Unique Birthday Present to Vilnius, Talk",
+    "location": "Online at the Conference VISUALITY 2023: MEDIA AND COMMUNICATION IN THE AGE OF (DIS) INFORMATION, Vilnius Gediminas Technical University, Lithuania",
+    "date": "2023-04-19",
+    "description": "A presentation with Prof. Dr. Rytė Žiūrienė about the summer school 'Animation in X-Reality' which took place in Vilnius in Summer 2022."
+  },
+  {
+    "title": "Synthesizing Meaning II Workshop",
+    "location": "Hochschule RheinMain, Germany",
+    "date": "2023-04-13 to 2023-04-16",
+    "description": "A 3-day intensive workshop with Lisa Marleen Mantel for creating animations with Stable Diffusion and combining applied AI with traditional design skills."
+  },
+  {
+    "title": "Intro to text-to-image AI Workshop",
+    "location": "UPDATE Festival, Liepaja, Latvia",
+    "date": "2023-04-04",
+    "description": "A mini-workshop about text-to-image with Stable Diffusion and Google Colab."
+  },
+  {
+    "title": "AI - Co-Working or No-Working, Elastique. Input-Session Talk",
+    "location": "Elastique, Cologne, Germany",
+    "date": "2023-02-06",
+    "description": "A talk with Lisa Marleen Mantel at Elastique."
+  },
+  {
+    "title": "DEL In Between: Learning to Fail at Design, AI, and Technology Panel Talk",
+    "location": "DEL Conference",
+    "date": "2023-01-20",
+    "description": "A panel discussion about learning to fail in teaching design with Prof. Dr. Laura Popplow and Prof. Dr. Lasse Scherffig."
+  },
+  {
+    "title": "Synthesizing Meaning Workshop",
+    "location": "Hochschule RheinMain, Germany",
+    "date": "2022-11-11 to 2022-11-13",
+    "description": "A mini-workshop with senior art director Lisa Marleen Mantel about text-to-image with Stable Diffusion and Google Colab."
+  },
+  {
+    "title": "AAA Artistic AI Appropriation Workshop",
+    "location": "KHM Köln, Germany",
+    "date": "2022-10-25",
+    "description": "A 3-day intensive workshop with Lisa Marleen Mantel for art students on combining disembodied technologies with tacit knowledge."
+  },
+  {
+    "title": "Animation in X-Reality 2-weeks summer school in Vilnius",
+    "location": "Vilnius, Lithuania",
+    "date": "2022-04-25 to 2022-05-07",
+    "description": "A 2-week workshop employing an innovative pipeline of projection mapping and text-to-image AI. A joint effort by the Games Academy Tampere Finland, Vilnius Tech Lithuania, Cologne Academy of Media Arts and Köln International School of Design. The resulting installation was projected onto the facade of the Vilnius City Hall to commemorate the 700th Anniversary of the city."
+  },
+  {
+    "title": "Synthesizing Meaning with VQGAN and CLIP",
+    "location": "DHBW Ravensburg University of Applied Sciences, Germany",
+    "date": "2022-04-22 to 2022-04-24",
+    "description": "A 3-day intensive workshop with senior art director Lisa Marleen Mantel on co-creating animations with VQGAN and CLIP."
+  },
+  {
+    "title": "Lunchtime Talk: Borrowed Limbs",
+    "location": "DHBW Ravensburg University of Applied Sciences, Germany",
+    "date": "2022-04-22",
+    "description": "A talk with senior art director Lisa Marleen Mantel about how AI (GAN, text-to-image with diffusion models, super-resolution, and frame interpolation) was used to create the short film 'Borrowed Limbs'."
+  }
+]

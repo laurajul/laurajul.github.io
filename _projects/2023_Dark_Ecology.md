@@ -6,7 +6,7 @@ description: Two week Seminar at Gediminas Technical University
 video: assets/img/seminars/2023/dark_ecology/title_ec.webm
 poster: assets/img/seminars/2023/dark_ecology/poster_ec.png
 importance: 2
-category: seminars
+category: -
 giscus_comments: false
 ---
 

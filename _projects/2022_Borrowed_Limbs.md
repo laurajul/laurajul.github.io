@@ -8,6 +8,10 @@ importance: 3
 date: 2021-05-04
 category: selected artworks
 ---
+
+#### 2021 - 2022
+
+---
 The experimental short film “Borrowed Limbs”, created in collaboration between the two designers Lisa-Marleen Mantel and Laura Juliane Wagner, emphasizes the mediating role speculative design has in the face of disruptive technological advancements, as it allows for the exploration and simulation of ethical issues. The short film is centered around an AI main character who uses the human body as a sensing device to gain a physical understanding of their surroundings. Influenced by posthuman thinkers, the work aims to provoke a discussion about Cartesian notions of disembodied intelligence.
 
 The work combines recent developments in philosophy and cognitive science with state-of-the-art technologies and artistic practice: Main part of the film was produced with a machine-learning-backed process called “CLIP guided diffusion”. This method enables image synthesis based on language prompts. Prompts are carefully refined in a human-machine communication loop. In a way, the practical processes involved in producing the film reflect the speculative idea of an ongoing dialogue found in the narrative. The work was created as part of the Master Research at KISD – Cologne International School of Design (Faculty of TH Köln).
@@ -23,7 +27,7 @@ Here is your information formatted as a clean, structured table listing the scre
 <h2>Watch the film</h2>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://player.vimeo.com/video/1022854845" 
+  <iframe src="https://player.vimeo.com/video/682432232" 
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
           frameborder="0" 
           allow="autoplay; fullscreen; picture-in-picture" 

@@ -1,0 +1,16 @@
+<div class="workshop-entry my-3">
+  
+  <h4 class="mb-1">
+    {% if workshop.url %}
+      <a href="{{ workshop.url }}" target="_blank" rel="noopener noreferrer">{{ workshop.title }}</a>
+    {% else %}
+      {{ workshop.title }}
+    {% endif %}
+  </h4>
+
+  <p class="text-muted mb-1">
+    <strong>{{ workshop.location }}</strong> | <em>{{ workshop.date }}</em>
+  </p>
+  <p>{{ workshop.description }}</p>
+
+</div>
