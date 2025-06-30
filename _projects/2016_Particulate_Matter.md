@@ -9,7 +9,7 @@ category: selected artworks
 ---
 
 This project is an interactive data visualization of fine particulate matter, specifically the concentration of $PM_{10}$ and $PM_{xs}$ in the ambient air.
-The threat that fine particulate matter (commonly known as air pollution) poses to the health and life quality of breathing organisms is evident, yet it is widely downplayed or not even perceived at all. The goal of this installation is to create awareness by making an invisible threat to human health more comprehensible for the layperson by making it visible.
+The threat that fine particulate matter (commonly known as air pollution) poses to the health and life quality of breathing organisms is evident, yet it is widely downplayed or not even perceived at all. The goal of this installation is to create awareness by making an invisible threat to human health visible.
 ---
 
 <div class="content-wrapper">
@@ -143,27 +143,40 @@ The threat that fine particulate matter (commonly known as air pollution) poses 
 
 ---
 
-### Interaction Design
+### Phyiscal Prototype
 Through a physical interface, the user can actively compare different air quality conditions by navigating through different measurement stations in the world and travelling forth and back in time, while having the simulated particle system respond to the data accessed accordingly[cite: 5]. In addition to projecting the particle simulation on the layers of the semitranslucent 3D-screen, the corresponding raw data is shown on a small LED screen.
+
+
+<div class="mt-3">
+  {% include figure.liquid 
+     loading="eager" 
+     path="assets/img/art/pm/render.png" 
+     title="Creative Process Overview" 
+     class="img-fluid rounded z-depth-1 w-100" 
+  %}
+</div>
+<div class="caption">
+  Projection mapping test on a replica of the Vilnius city hall to test the final projection.
+</div>
 
 ---
 
 ### Project Development
 The code for the particle simulation was written in the Processing IDE (Java) and the Arduino IDE (C++). The physical interface was implemented using two potentiometers (for navigation through the data array) and a small LED screen (for visualizing the raw data) connected to an Arduino microcontroller.
 
-<div class="row mt-3">
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded" src="https://raw.githubusercontent.com/user-attachments/assets/5815a519-79f0-466c-9c3b-7a3b3fd8959f" alt="A closeup of the Arduino-based control panel with potentiometers and a small screen.">
+        {% include figure.liquid loading="eager" path="assets/img/art/pm/schema.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded" src="https://raw.githubusercontent.com/user-attachments/assets/384a32a6-e173-45a2-974a-4a253018e690" alt="The wooden frame of the DIY 3D screen with mosquito nets stretched across.">
+        {% include figure.liquid loading="eager" path="assets/img/art/pm/schema_01.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded" src="https://raw.githubusercontent.com/user-attachments/assets/91c130d2-5a2a-4649-8c26-5381f727c9d9" alt="The final installation in a dark room with particles projected onto the screen.">
+        {% include figure.liquid loading="eager" path="assets/img/art/pm/schema_02.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    From left to right: The physical interface prototype, the DIY 3D screen during construction, and the final installation.
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
 
 ---
@@ -174,13 +187,6 @@ The frame for the screen was constructed using battens from the hardware store. 
 ***
 ---
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://vimeo.com/1097361717" 
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-          frameborder="0" 
-          allow="autoplay; fullscreen; picture-in-picture" 
-          allowfullscreen>
-  </iframe>
-</div>
+
 
 *The installation was shown at [Aachen 2025](https://futurelab-aachen.de/event/aachen2025/)*

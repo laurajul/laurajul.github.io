@@ -6,7 +6,7 @@ img: assets/img/oruborus_I_001.png
 importance: 5
 date: 2023-11-23
 url: https://2023.uroboros.design/performative-dialogues-with-ai/
-category: workshops
+category:
 related_publications: true
 ---
 

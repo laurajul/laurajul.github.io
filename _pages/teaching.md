@@ -5,8 +5,8 @@ permalink: /teaching/
 description:
 nav: true
 nav_order: 3
-display_categories: [seminars, workshops]
-horizontal: true
+display_categories: [seminars, workshops and talks]
+horizontal: false
 ---
 
 <!-- pages/projects.md -->
@@ -63,3 +63,8 @@ horizontal: true
   {% endif %}
 {% endif %}
 </div>
+
+
+{% for workshop in site.data.workshops %}
+  {% include workshop.liquid workshop=workshop %}
+{% endfor %}
