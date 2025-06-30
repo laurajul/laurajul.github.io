@@ -409,11 +409,16 @@ ninja.data = [{
           description: "Summer School in Vilnius",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2022_Animation_X/";
-            },},{id: "projects-dis-embodied-minds",
-          title: 'Dis-embodied minds',
+            },},{id: "projects-synthesizing-meaning",
+          title: 'Synthesizing Meaning',
           description: "creativity and co-creation with AI",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2022_disembodied/";
+            },},{id: "projects-synthesizing-meaning",
+          title: 'Synthesizing Meaning',
+          description: "creativity and co-creation with AI",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2022_synthesizing_meaning/";
             },},{id: "projects-anthrobot",
           title: 'Anthrobot',
           description: "A human robot dance performance",
@@ -434,11 +439,6 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2023_I_Uroburus/";
-            },},{id: "projects-syntesizing-meaning-workshop-series",
-          title: 'Syntesizing Meaning - Workshop Series',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2023_Syntesizing_Meaning/";
             },},{id: "projects-stable-diffusion-disconfusion",
           title: 'Stable Diffusion Disconfusion',
           description: "with background image",
