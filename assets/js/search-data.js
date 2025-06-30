@@ -4,7 +4,7 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-laura-wagner",
-    title: "Laura Wagner",
+    title: "laura wagner",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-art",
           title: "art",
-          description: "Some art",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/art/";
@@ -399,6 +399,11 @@ ninja.data = [{
           description: "An interactive data visualization of fine particulate matter.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2016_Particulate_Matter/";
+            },},{id: "projects-tangibles",
+          title: 'Tangibles',
+          description: "Interactive data visualization using a capacitive touchscreen and tangible markers",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2018_multitouch/";
             },},{id: "projects-borrowed-limbs",
           title: 'Borrowed Limbs',
           description: "Text-to-image short film",
