@@ -2,7 +2,7 @@
 layout: page
 title: art
 permalink: /art/
-description: Some art
+description: 
 nav: true
 nav_order: 3
 display_categories: [selected artworks]

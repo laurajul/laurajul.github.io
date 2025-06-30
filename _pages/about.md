@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Laura Wagner
+title: laura wagner
 permalink: /
 subtitle: Doctoral Candidate in Digital Humanities. University of Zürich
 
