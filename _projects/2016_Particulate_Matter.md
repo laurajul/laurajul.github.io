@@ -141,7 +141,7 @@ The threat that fine particulate matter (commonly known as air pollution) poses 
   });
 </script>
 
----
+
 
 ### Phyiscal Prototype
 Through a physical interface, the user can actively compare different air quality conditions by navigating through different measurement stations in the world and travelling forth and back in time, while having the simulated particle system respond to the data accessed accordingly[cite: 5]. In addition to projecting the particle simulation on the layers of the semitranslucent 3D-screen, the corresponding raw data is shown on a small LED screen.
@@ -166,13 +166,13 @@ The code for the particle simulation was written in the Processing IDE (Java) an
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/art/pm/schema.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/art/pm/prototyp_03.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/art/pm/schema_01.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-1 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/art/pm/schema_02.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/art/pm/cube.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -185,8 +185,8 @@ The code for the particle simulation was written in the Processing IDE (Java) an
 The frame for the screen was constructed using battens from the hardware store. Off-the-shelf mosquito nets were clamped along the edges. Using an airbrush, high-reflective paint was evenly applied to the mesh's surface to ensure optimized visibility of the projected particles.
 
 ***
----
 
 
 
-*The installation was shown at [Aachen 2025](https://futurelab-aachen.de/event/aachen2025/)*
+
+*The installation was shown at [Aachen 2025](https://futurelab-aachen.de/event/aachen2025/)* and ath the [see conference 2017](https://www.see-conference.org/en/)
