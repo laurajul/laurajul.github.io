@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -410,20 +410,20 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/2022_Animation_X/";
             },},{id: "projects-dis-embodied-minds",
-          title: 'dis-embodied minds',
+          title: 'Dis-embodied minds',
           description: "creativity and co-creation with AI",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2022_disembodied/";
-            },},{id: "projects-dark-ecology",
-          title: 'Dark Ecology',
-          description: "Two week Seminar at Gediminas Technical University",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2023_Dark_Ecology/";
             },},{id: "projects-anthrobot",
           title: 'Anthrobot',
           description: "A human robot dance performance",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2023_Anthrobot/";
+            },},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2023_Dark_Ecology/";
             },},{id: "projects-performative-dialogues-with-ai-at-uroboros-festival",
           title: 'Performative Dialogues with AI at Uroboros Festival',
           description: "with background image",
