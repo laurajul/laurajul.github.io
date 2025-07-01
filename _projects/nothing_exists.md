@@ -8,6 +8,8 @@ importance: 1
 category: selected artworks
 ---
 
+with Ramona Sprengler and Marcel Rickli
+
 Our new collaborator arrived in a long rectangular box, stretching the table.
 Under the guidance of our instructor, we carefully assembled the machine, attaching the two long antennae—features that gave it an animal-like appearance—as they protruded behind the frame, swaying and facing us. These would guide two yarns of different colors, holding them in place to be driven across an array of hooks by a carriage that looks like a cassette player fused to an electric iron. With each turn, the carriage is driven across by hand; the hooks protrude or retract, determining the pattern of the interwoven yarns, row by row, while triggering a satisfying series of precise clicks.
 The casing, of a gentle, institutional beige color typical of the 70s, was opened in part, with a microcontroller dangling from it. This old machine had been given a new brain! This allowed us to bypass the need for inserting black-and-white pattern cards, and instead send digital instructions directly from a computer, to be transformed into a knitted textile mesh.

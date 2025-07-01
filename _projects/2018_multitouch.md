@@ -137,17 +137,10 @@ Tangible user interfaces are an interface type that interlinks the the digital a
 **Interactive Meterological Data Visualization**
 
 <p>
-Linear data representations are more common than polar graphs, for good reasons. It's way easier to compare the deltas of outliers and see trends unfold. Because we read from left to right (in some languages from right to left) a cartesian representation of values is more intuitive while a polar representation requires the onlooker to make an additional step of mental decoding.
-However a dataset, that describes natural cyclic activity, a polar representation might grant the onlooker with new perspective and a new mental model. One such example is meterological data visualised in one-year intervals. A year is a cyclic process made up of recurring sub-cyles.
+Linear data representations are more common than polar graphs, for good reasons. It's way easier to compare the deltas of outliers and see trends unfold. Because we read from left to right (in some languages from right to left) a cartesian representation of values is more intuitive while a polar representation requires the onlooker to make an additional step of mental decoding. However a dataset, that describes natural cyclic activity, a polar representation might grant the onlooker with new perspective and a new mental model. One such example is meterological data visualised in one-year intervals. A year is a cyclic process made up of recurring sub-cyles.
 </p>
 <p>
-Days and months (in a lunisolar calendar system). The gregorian calendar is a solar calendar: it lines up the dates and seasons to the earths position relative to the sun. However the gregorian calendar is not lunisolar, as it doesn't take the moon cycles into account. Because a purely lunar calendar quickly drifts against the seasons, in lunisolar calendars (for example the Hebrew or Chinese calendar), an additional month is added every few years in order to mitigate the seasonal shift.
-</p>
-<p>
-In this project a visualisation was created that emphasises on the cyclic nature of movement in the universe and create an alternative mental model of time. Also every year, month and day is different and leaves its unique mark like age rings in a tree.
-</p>
-<p>
-The resulting visualisations show temperature and global radiation (intensity of sun rays hitting the earth's surface at the measuring station). The data was provided by the solar institute in Jülich and visualised.
+The resulting visualisations show temperature and global radiation (intensity of sun rays hitting the earth's surface at the measuring station). The data was provided by the [Solar Institute in Jülich](https://www.fh-aachen.de/forschung/institute/sij/) and visualised.
 </p>
 
 <div class="slider-container">
@@ -196,11 +189,6 @@ The resulting visualisations show temperature and global radiation (intensity of
   </iframe>
 </div>
 
-<!-- Spacer and Divider -->
-<div style="margin: 3rem 0;">
-  <hr style="border: none; border-top: 1px solid #ccc;">
-</div>
-
 
 
 ---
@@ -219,7 +207,6 @@ A key part of this work involved close collaboration with engineers from various
 
 
 <h4>Pilotline "Tooling"</h4>
-
 This trade fair demonstrator presents a tooling production pipeline, outlining sequential steps in component fabrication. The display begins with additive manufacturing, specifically Laser Metal Deposition, followed by various subtractive processes like milling and EDM. Viewers can interact with physical models representing workpieces at different production stages. As these workpiece models are positioned along the chain, the displayed information dynamically adjusts to reflect the corresponding manufacturing phase. This interactive element allows for direct exploration of how specific operations contribute to the overall production flow. The demonstration illustrates the integration of diverse manufacturing techniques, from initial material build-up to final surface treatment. It provides a functional overview of the coordinated processes involved in creating advanced tools.
 
 <div class="row">
@@ -244,7 +231,7 @@ This trade fair demonstrator presents a tooling production pipeline, outlining s
     </div>
 </div>
 <div class="caption">
-    A few glimpses into the creative process during the summer school workshops.
+    The tangibles on the multitouch-table during a fair.
 </div>
 
 
@@ -260,7 +247,7 @@ This interactive demonstrator illustrates the complex manufacturing sequence for
     </div>
 </div>
 <div class="caption">
-    Left: first prototype, Right: HMI trade fair (Hannovermesse) 2018 with German eductation minister Karliczeck
+    Left: first prototype, Right: HMI trade fair (Hannovermesse) 2018 with German education minister Karliczeck
 </div>
 
 <h4>Process Chain Gear Manufacturing</h4>
