@@ -108,6 +108,10 @@ The process of visualizing the birth of consciousness was specifically achieved 
   </tbody>
 </table>
 
+<a href="{{ 'assets/pdf/FinalThesis_Mantel_Wagner.pdf' | relative_url }}" download="My Bachelor's Thesis - Your Name.pdf" class="btn btn-primary mt-3">
+  <i class="fas fa-download mr-2"></i> Download Master's Thesis (PDF)
+</a>
+
 ---
 
 [^crowson]: Katherine Crowson et al., "VQGAN-CLIP: Open Domain Image Generation and Editing with Natural Language Guidance," arXiv, last revised September 4, 2022, arXiv:2204.08583, https://doi.org/10.48550/arXiv.2204.08583.
