@@ -11,7 +11,7 @@ category: selected artworks
 This project offers an interactive data visualization of fine particulate matter concentrations, specifically $PM_{10}$ and $PM_{2 5}$, in ambient air. Fine particulate matter, or air pollution, presents a clear threat to the health and quality of life for breathing organisms, though this danger is often underestimated or overlooked.
 
 ### Project Aim
-The installation aims to raise awareness by **making this invisible threat to human health visible**. When a user inputs a city, the code queries the airqn.org API for current air pollution levels. The central concept of this project is to transform a critical global health issue into an aesthetically engaging experience to foster greater public awareness.
+The installation aims to raise awareness by **making this invisible threat to human health visible, even turning it into something visually appealing**. When a user inputs a city, the code queries the airqn.org API for current air pollution levels. The central concept of this project is to transform a critical global health issue into an aesthetically engaging experience to foster greater public awareness.
 
 ---
 
@@ -178,4 +178,4 @@ The frame for the screen was constructed using battens from the hardware store. 
 
 ***
 
-*This art installation was shown at [Aachen 2025](https://futurelab-aachen.de/event/aachen2025/)* and ath the [see conference 2017](https://www.see-conference.org/en/)
+*This art installation was shown at [Aachen 2025](https://futurelab-aachen.de/event/aachen2025/)* and and the [see conference 2016](https://www.see-conference.org/en/)
