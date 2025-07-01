@@ -16,6 +16,20 @@ Devices with interactive multi touch surfaces are ubiquitous and are getting mor
 
 Tangible user interfaces are an interface type that interlinks the the digital and physical worlds, and allows for exploration of digital content through manipulation of physical objects.Tangibles are not mere input devicesbut they can superimpose elements of the graphical user interface or become fully fused with it. In other words: they are - part of the interface brought to life. The goal of this project was to explore tangible objects as control elements, categorise them by comparing them to input devices and peripherals, analyse them in terms of affordances, and define scenarios, where they could be of use. All this while referring to scientific studies evaluating the performance of tangible user interfaces. This work resulted in a prototype that aims to explore, how tangible control elements could help to navigate through a complex data set, while enhancing the users experience.
 
+<h4>First prototype</h4>
+
+<div class="row">
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/art/2018_multitouch/fingers.webp" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/art/pm/09b.gif" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    A few glimpses into the creative process during the summer school workshops.
+</div>
+
 <!-- Spacer and Divider -->
 <div style="margin: 3rem 0;">
   <hr style="border: none; border-top: 1px solid #ccc;">
