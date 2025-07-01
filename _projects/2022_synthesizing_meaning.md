@@ -131,7 +131,7 @@ The central task was for participants to select an organism, human or non-human,
     </tr>
   </tbody>
 </table>
-
+---
 [^first]: Timnit Gebru and Émile P. Torres, "The TESCREAL bundle: Eugenics and the promise of utopia through artificial general intelligence," First Monday 29, no. 4 (April 1, 2024), https://firstmonday.org/ojs/index.php/fm/article/download/13636/11599, doi: https://dx.doi.org/10.5210/fm.v29i4.13636.
 
 [^second]: Katherine Crowson et al., "VQGAN-CLIP: Open Domain Image Generation and Editing with Natural Language Guidance," arXiv, last revised September 4, 2022, arXiv:2204.08583, https://doi.org/10.48550/arXiv.2204.08583.
