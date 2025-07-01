@@ -134,39 +134,6 @@ Tangible user interfaces are an interface type that interlinks the the digital a
     }
 </style>
 
-<h4>2017 - 2019</h4>
-
----
-Devices with interactive multi touch surfaces are ubiquitous and are getting more and more sophisticated in terms of providing experiences, that thanks to ultra low latencies and carefully tuned prediction algorithms are smooth and have a natural feel to them. But the digital world lacks physicality and neglects the human sense of touch and does not make use of the fine motor skills of the human hands that allow for high precision tasks and complex manipulation. Also the human capability of bi-manualism and spacial multiplexing is often not exploited.
-
-Tangible user interfaces are an interface type that interlinks the the digital and physical worlds, and allows for exploration of digital content through manipulation of physical objects.Tangibles are not mere input devicesbut they can superimpose elements of the graphical user interface or become fully fused with it. In other words: they are - part of the interface brought to life. The goal of this project was to explore tangible objects as control elements, categorise them by comparing them to input devices and peripherals, analyse them in terms of affordances, and define scenarios, where they could be of use. All this while referring to scientific studies evaluating the performance of tangible user interfaces. This work resulted in a prototype that aims to explore, how tangible control elements could help to navigate through a complex data set, while enhancing the users experience.
-
-<h4>First prototype</h4>
-
-<div class="row">
-    <div class="col-sm-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/art/2018_multitouch/fingers.webp" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/art/2018_multitouch/first_prototype.webp" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="caption">
-    Testing out first prototypes.
-</div>
-
-<div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/art/2018_multitouch/Universal_Marker.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-   <div class="col-sm-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/art/2018_multitouch/cad.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
----
-
 **Interactive Meterological Data Visualization**
 
 <p>
