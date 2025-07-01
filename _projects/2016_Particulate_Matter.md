@@ -2,7 +2,7 @@
 layout: page
 title: Particulate Matters
 description: An interactive data visualization of fine particulate matter.
-img: assets/img/art/pm/cube.png
+img: assets/img/art/pm/title_pa.webp
 importance: 9
 date: 2017-05-09
 category: selected artworks
@@ -183,6 +183,19 @@ The code for the particle simulation was written in the Processing IDE (Java) an
 
 ### DIY 3D Screen
 The frame for the screen was constructed using battens from the hardware store. Off-the-shelf mosquito nets were clamped along the edges. Using an airbrush, high-reflective paint was evenly applied to the mesh's surface to ensure optimized visibility of the projected particles.
+
+
+### Result
+The code for the particle simulation was written in the Processing IDE (Java) and the Arduino IDE (C++). The physical interface was implemented using two potentiometers (for navigation through the data array) and a small LED screen (for visualizing the raw data) connected to an Arduino microcontroller.
+
+<div class="row">
+    <div class="col-sm mt-8 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/art/pm/result.webp" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
 
 ***
 

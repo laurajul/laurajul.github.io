@@ -19,7 +19,8 @@
   "work": [
     {
       "name": "Universität Zürich",
-      "position": "Doctoral Candidate Kunstgeschichte der Neuzeit | Digital Humanities",
+      "location": "Zürich, Switzerland",
+      "position": "Doctoral Candidate Kunstgeschichte der Neuzeit",
       "url": "",
       "startDate": "2024-02",
       "endDate": "NOW",
@@ -31,7 +32,8 @@
     },
     {
       "name": "KISD - International School of Design",
-      "position": "Research Associate Design and AI",
+      "location": "Köln, Germany",
+      "position": "Research Associate, project KITEGG",
       "url": "",
       "startDate": "2022-03",
       "endDate": "2023-12",
@@ -43,6 +45,7 @@
     },
     {
       "name": "KISD - International School of Design",
+      "location": "Köln, Germany",
       "position": "Student Research Assistant Interaction Design",
       "url": "",
       "startDate": "2021-05",
@@ -50,12 +53,26 @@
       "summary": "Creation of exercises using Machine Learning techniques",
       "highlights": [
         "Model training with StyleGAN2/StyleGAN3",
-        "Developed Jupyter Notebooks for student accessibility"
+        "Developed Jupyter Notebooks for student accessibility",
+        "Conducting workshops on text-to-image AI, CharRNNs, and StyleGAN2"
+      ]
+    },
+
+        {
+      "name": "Cologne Cobots Lab TH Köln",
+      "position": "Student Research Assistant Interaction Design",
+      "location": "Köln, Germany",
+      "url": "",
+      "startDate": "2021-05",
+      "endDate": "2022-03",
+      "summary": "Creation of 3D assets and interactive prototypes",
+      "highlights": [
       ]
     },
     {
       "name": "Radial Design",
       "position": "UX/UI Designer for Embedded Systems (automotive)",
+      "location": "Frankfurt, Germany",
       "url": "https://www.radialdesign.de",
       "startDate": "2019-10",
       "endDate": "2020-08",
@@ -67,12 +84,33 @@
     },
     {
       "name": "Fraunhofer Institute for Production Technology (IPT)",
+      "location": "Aachen, Germany",
       "position": "Interaction Designer",
       "url": "https://www.produktion.fraunhofer.de/de/forschung-im-verbund/formate/leitprojekte/evolopro.html",
       "startDate": "2019-10",
       "endDate": "2020-08",
       "summary": "Design and Development of interactive trade fair exhibits",
-      "highlights": [""]
+      "highlights": ["Multitouch table demonstrators for industrial production chains"]
+    },
+
+    {
+      "name": "Werkzeugmaschinenlabor WZL der RWTH Aachen",
+      "location": "Aachen, Germany",
+      "position": "Student Graphic Designer",
+      "url": "https://www.produktion.fraunhofer.de/de/forschung-im-verbund/formate/leitprojekte/evolopro.html",
+      "startDate": "2015-10",
+      "endDate": "2017-08",
+      "summary": "Design and Development of interactive trade fair exhibits",
+      "highlights": ["Multitouch table demonstrators for industrial production chains"]
+    },
+     {
+      "name": "Surbana Jurong Group",
+      "location": "Singapore",
+      "position": "Student in practical semester",
+      "url": "https://www.produktion.fraunhofer.de/de/forschung-im-verbund/formate/leitprojekte/evolopro.html",
+      "startDate": "2017-07",
+      "endDate": "2018-01",
+      "summary": "Creation of 3D assets and interactive prototypes"
     }
   ],
   "volunteer": [
@@ -136,8 +174,15 @@
   ],
   "certificates": [
     {
-      "name": "Technical Safety Instruction (TSI)",
+      "name": "Technical Safety Instruction (TSI) Woodworking Machinery",
       "date": "",
+      "issuer": "",
+      "url": "",
+      "summary": "Certified to operate woodworking machinery under supervision"
+    },
+        {
+      "name": "Safety Instruction for Flight Attendants",
+      "date": "2012",
       "issuer": "",
       "url": "",
       "summary": "Certified to operate woodworking machinery under supervision"
