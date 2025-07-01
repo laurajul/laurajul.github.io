@@ -424,16 +424,16 @@ ninja.data = [{
           description: "creativity and co-creation with AI",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2022_synthesizing_meaning/";
+            },},{id: "projects-dark-ecology",
+          title: 'Dark Ecology',
+          description: "Two week Seminar at Gediminas Technical University",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2023_Dark_Ecology/";
             },},{id: "projects-anthrobot",
           title: 'Anthrobot',
           description: "A human robot dance performance",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2023_Anthrobot/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2023_Dark_Ecology/";
             },},{id: "projects-performative-dialogues-with-ai-at-uroboros-festival",
           title: 'Performative Dialogues with AI at Uroboros Festival',
           description: "with background image",
