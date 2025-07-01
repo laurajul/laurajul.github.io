@@ -143,7 +143,7 @@ The threat that fine particulate matter (commonly known as air pollution) poses 
 
 
 
-### Phyiscal Prototype
+### Prototype
 Through a physical interface, the user can actively compare different air quality conditions by navigating through different measurement stations in the world and travelling forth and back in time, while having the simulated particle system respond to the data accessed accordingly[cite: 5]. In addition to projecting the particle simulation on the layers of the semitranslucent 3D-screen, the corresponding raw data is shown on a small LED screen.
 
 

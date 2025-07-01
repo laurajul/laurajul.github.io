@@ -2,7 +2,7 @@
 layout: page
 title: Borrowed Limbs
 description: Text-to-image short film
-img: assets/img/art/2022_bl.gif
+img: assets/img/art/borrowed_limbs/title_bl.webp
 #redirect: https://unsplash.com
 importance: 3
 date: 2021-05-04
