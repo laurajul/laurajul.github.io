@@ -33,16 +33,16 @@ The **ANTHROBOT** project delves into the intricate dynamics of human-machine re
     </div>
 </div>
 <div class="caption">
-    Initial sketches and early programming sessions capture the conceptualization of the robot's role. Alongside, a rehearsal photo showing the interaction between the robot and human performers.
+    Students programming the UR3e robot arm. They were involved in all steps of the development of the performance.
 </div>
 
 ## Collaboration and Development Phases
 
 The project was brought to life in close collaboration with the [Diphtong Collective](https://diphthong.art/), contributing their expertise in performance and artistic direction.
 
-The culmination of this work was a series of performances from **December 1st to 3rd, 2023, at Kunsthafen Rhenania**, offering the public a chance to experience the unique human-robot dialogue firsthand. The project was developed as a seminar at [**KISD Köln International School of Design**](https://kisd.de/).
+The culmination of this work was a series of performances in early December 2023 at **Kunsthafen Rhenania**, offering the public a chance to experience the unique human-robot dialogue firsthand. The project was developed as a seminar at [**KISD Köln International School of Design**](https://kisd.de/).
 
-At the core of ANTHROBOT's interactive capabilities is a custom **UR3e MQTT Controller** ([GitHub Repository](https://github.com/laurajul/ur3e_mqtt_controller)). This script enables the precise and dynamic control of the [**Universal Robots UR3e industrial robot arm**](https://www.universal-robots.com/products/ur3e/) through MQTT messages.
+At the core of ANTHROBOT's interactive capabilities is a custom **UR3e MQTT Controller** ([GitHub Repository](https://github.com/laurajul/ur3e_mqtt_controller)). This script enables the precise and dynamic control of the [**Universal Robots UR3e industrial robot arm**](https://www.universal-robots.com/products/ur3e/) vie the MQTT protocol.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -79,7 +79,7 @@ Within the seminar, students focused on principles of human-computer interaction
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/seminars/2023/anthrobot/performance_01.jpg" title="Early Concept Sketch" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/seminars/2023/anthrobot/performance_04.png" title="Early Concept Sketch" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/seminars/2023/anthrobot/performance_02.jpg" title="Robot Programming Session" class="img-fluid rounded z-depth-1" %}
