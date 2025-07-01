@@ -145,14 +145,14 @@ The resulting visualisations show temperature and global radiation (intensity of
 
 <div class="slider-container">
     <div class="year-section">
-        <h3>2017 Data</h3>
+        <h3>2017</h3>
         <img id="img2017" src="{{ site.baseurl }}/assets/img/art/2018_multitouch/nov17.svg" alt="2017 Data Visualization">
         <input type="range" id="slider2017" value="10" min="0" max="11" step="1">
         <span id="sliderStatus2017">May</span>
     </div>
 
     <div class="year-section">
-        <h3>2018 Data</h3>
+        <h3>2018</h3>
         <img id="img2018" src="{{ site.baseurl }}/assets/img/art/2018_multitouch/nov18.svg" alt="2018 Data Visualization">
         <input type="range" id="slider2018" value="10" min="0" max="11" step="1">
         <span id="sliderStatus2018">November</span>
