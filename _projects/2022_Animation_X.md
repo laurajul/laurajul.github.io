@@ -19,10 +19,9 @@ giscus_comments: false
   %}
 </div>
 <div class="caption">
-  Projection mapping test on a replica of the Vilnius city hall to test the final projection.
+  Projection mapping test on a replica of the Vilnius city hall to test the final projection. Video by Maxim Diehl.
 </div>
 
----
 
 The Animation in X-Reality summer school explored the expanded field of animation, encompassing motion capture, projection mapping, sound production, and creative artificial intelligence. Participants engaged in practical workshops led by collaborating universities, alongside enriching field trips and cultural activities.
 
@@ -34,9 +33,9 @@ This project was a collaborative effort among four universities: the Department 
 
 KISD's workshop focused on collaborating with and appropriating artificial intelligence for filmmaking. A novel text-to-image (TTI) approach was applied in conjunction with various other neural architecture-based techniques, such as upscaling and frame interpolation. This involved combining image synthesis processes using text-to-image with traditional creative techniques like animation, sketching, and photography, fostering an experimental human-machine co-creation.
 
-A core component of the workshop involved utilizing PyTTI-Tools, a powerful suite for generating CLIP-guided images. PyTTI's origins trace back to 2021, when practitioners, researchers, and artists pioneered these text-to-image approaches. Specifically, [Katherine Crowson](https://kath.io/) published a foundational notebook, which sparked numerous variations and feature additions by other innovators. Henry Rachootin (@sportsracer48) then assembled key elements from these notebooks to create PyTTI. Later, David Marx (@DigThatData) significantly expanded upon PyTTI, transforming it into the comprehensive PyTTI-Tools that has become a go-to for advanced image generation.
+A core component of the workshop involved utilizing PyTTI-Tools, a powerful suite for generating CLIP-guided images. PyTTI's origins trace back to 2021, when practitioners, researchers, and artists pioneered these text-to-image approaches. Specifically, [Katherine Crowson](https://kath.io/)[^crowson] published a foundational notebook, which sparked numerous variations and feature additions by other innovators. Henry Rachootin (@sportsracer48) then assembled key elements from these notebooks to create PyTTI. Later, David Marx (@DigThatData) significantly expanded upon PyTTI, transforming it into the comprehensive PyTTI-Tools that has become a go-to for advanced image generation.
 
-A unique aspect of the KISD workshop was the application of image-to-image diffusion on actual architectural photos and drawings of the Vilnius City Hall. This technique allowed the initial weights for the diffusion guidance to be informed by the existing architectural features, which were then intertwined with creative prompts stemming from engaging with Vilnius' rich cultural history.
+A unique aspect of the KISD workshop was the application of **image-to-image diffusion on actual architectural photos and drawings of the Vilnius City Hall. This technique allowed the initial weights for the diffusion guidance to be informed by the existing architectural features, which were then intertwined with creative prompts stemming from engaging with Vilnius' rich cultural history.**
 
 The workshop provided hands-on experience with Python commands, Jupyter Notebooks, and command-line interfaces, familiarizing students with the JupyterLab and Anaconda ecosystems. Crucially, it also included a reflection on the training data used by the models and discussions on their potential societal impacts. The aim was to convey a basic understanding of command-line interfaces and to build intuition about how large-scale machine learning networks can contribute to the workflow of designers and artists. The workshop was conducted by Lisa Marleen Mantel and Laura Wagner, and organized in collaboration with the research project KITeGG on design and AI.
 
@@ -109,3 +108,5 @@ The project culminated in a projection mapping presentation on a model of the Vi
 ---
 
 For more details, you can read the original article on the **KISD (Köln International School of Design)** website: [Animation in X-Reality – Summer School in Vilnius](https://kisd.de/projects/animation-in-x-reality-summer-school-in-vilnius/)
+
+[^crowson]: Katherine Crowson et al., "VQGAN-CLIP: Open Domain Image Generation and Editing with Natural Language Guidance," arXiv, last revised September 4, 2022, arXiv:2204.08583, https://doi.org/10.48550/arXiv.2204.08583.

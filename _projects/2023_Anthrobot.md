@@ -33,7 +33,7 @@ The **ANTHROBOT** project delves into the intricate dynamics of human-machine re
     </div>
 </div>
 <div class="caption">
-    Students programming the UR3e robot arm. They were involved in all steps of the development of the performance.
+    Students programming the UR3e robot arm. They were involved in all steps: creative ideation, development of the performance, rehearsals, robot programming and stage assembly.
 </div>
 
 ## Collaboration and Development Phases
@@ -56,7 +56,7 @@ At the core of ANTHROBOT's interactive capabilities is a custom **UR3e MQTT Cont
     </div>
 </div>
 <div class="caption">
-    A view of the custom MQTT control interface used to choreograph the UR3e robot arm, alongside the robot demonstrating one of its programmed movements.
+   Left: the robot with a camera 'eye' | Middle: programming session during the seminar | Right: The custom MQTT control interface used to choreograph the UR3e robot arm
 </div>
 
 Within the seminar, students focused on principles of human-computer interaction and interaction design. They developed choreographed programs for the robot that could be loaded and played remotely. To enrich the performance, they also designed soundscapes by integrating triggers into the MQTT communication scheme, which controlled the audio via OSC. A portion of the performance utilized a 'freedrive' mode, enabling an actor to move the robot's arm directly for more fluid interaction. To manage these elements live, the students created a control dashboard for sending MQTT commands to the robot during the performance.
