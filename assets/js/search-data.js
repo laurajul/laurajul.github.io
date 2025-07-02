@@ -383,16 +383,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-presented-revealing-fault-lines-of-our-visual-culture-text-to-image-personalization-in-the-wild-at-the-dhch25-symposium-at-istituto-svizzero-di-roma",
+          title: 'Presented “Revealing Fault Lines of our Visual Culture: Text-to-Image Personalization in the Wild”...',
           description: "",
           section: "News",},{id: "projects-particulate-matters",
           title: 'Particulate Matters',
