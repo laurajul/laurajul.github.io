@@ -45,20 +45,24 @@ The culmination of this work was a series of performances in early December 2023
 At the core of ANTHROBOT's interactive capabilities is a custom **UR3e MQTT Controller** ([GitHub Repository](https://github.com/laurajul/ur3e_mqtt_controller)). This script enables the precise and dynamic control of the [**Universal Robots UR3e industrial robot arm**](https://www.universal-robots.com/products/ur3e/) vie the MQTT protocol.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/seminars/2023/anthrobot/rehearsal_01.png" title="MQTT Control Interface" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/seminars/2023/anthrobot/process_04.png" title="Robot in Action" class="img-fluid rounded z-depth-1" %}
-    </div>
-        <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-8 mt-md-0">
         {% include figure.liquid path="assets/img/seminars/2023/anthrobot/schema.png" title="Robot in Action" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-   Left: the robot with a camera 'eye' | Middle: programming session during the seminar | Right: The custom MQTT control interface used to choreograph the UR3e robot arm
+    The custom MQTT control interface used to choreograph the UR3e robot arm drawing by Tyanka Demyanka Adrian
 </div>
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-4 mt-md-0">
+        {% include figure.liquid path="assets/img/seminars/2023/anthrobot/rehearsal_01.png" title="MQTT Control Interface" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-4 mt-md-0">
+        {% include figure.liquid path="assets/img/seminars/2023/anthrobot/process_04.png" title="Robot in Action" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    </div>
 Within the seminar, students focused on principles of human-computer interaction and interaction design. They developed choreographed programs for the robot that could be loaded and played remotely. To enrich the performance, they also designed soundscapes by integrating triggers into the MQTT communication scheme, which controlled the audio via OSC. A portion of the performance utilized a 'freedrive' mode, enabling an actor to move the robot's arm directly for more fluid interaction. To manage these elements live, the students created a control dashboard for sending MQTT commands to the robot during the performance.
 
 ---
@@ -90,6 +94,12 @@ Within the seminar, students focused on principles of human-computer interaction
   <a href="http://www.alessandrodematteis.com/" target="_blank">Alessandro de Matteis&reg;</a>.
 </div>
 ---
+
+<!--
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ev-dDY0oa7Y?si=RoM1EZ9mnBVlEZcS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+-->
 
 
 ### Students
