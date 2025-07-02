@@ -1,31 +1,31 @@
 /* _sass/_social_icons.scss */
 
 .social-icons-wrapper {
-    display: flex; /* Makes the icons align in a row */
-    flex-wrap: wrap; /* Allows icons to wrap to the next line on small screens */
-    gap: 10px; /* Space between icons */
-    align-items: center; /* Vertically aligns icons */
-    justify-content: center; /* Center the icons if needed */
-    margin-top: 15px; /* Add some space above the icons */
-    margin-bottom: 15px; /* Add some space below the icons */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .social-icons-wrapper a {
-    color: #888; /* A nice medium grey */
-    font-size: 1.2em; /* Makes icons smaller relative to their default size. Adjust 1.2em as needed. */
-    text-decoration: none; /* Removes underline from links */
-    transition: color 0.3s ease; /* Smooth color change on hover */
+    color: #888;
+    /* Option 1: Make font-based icons much smaller */
+    font-size: 0.5em; /* Changed from 0.7em to 0.5em for even smaller icons */
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
-/* Hover effect: make them slightly darker on hover */
 .social-icons-wrapper a:hover {
-    color: #333; /* Darker grey on hover */
+    color: #333;
 }
 
-/* Specific styling for SVG/image-based icons if they are used */
 .social-icons-wrapper a svg,
 .social-icons-wrapper a img {
-    height: 20px; /* Specific height for images/SVGs, adjust as needed */
-    width: 20px; /* Specific width for images/SVGs, adjust as needed */
-    vertical-align: middle; /* Helps align with text if icons are next to text */
+    /* Option 2: Make SVG/image-based icons much smaller */
+    height: 15px; /* Adjust this value as needed, e.g., try 12px or 10px */
+    width: 15px;  /* Adjust this value as needed, e.g., try 12px or 10px */
+    vertical-align: middle;
 }

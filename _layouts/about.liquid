@@ -12,14 +12,7 @@ layout: default
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
 
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-        {% if site.contact_note %}
-          <div class="contact-note">{{ site.contact_note }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
+
   </header>
 
   <article>
@@ -52,5 +45,17 @@ layout: default
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
+
+        {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+        {% if site.contact_note %}
+          <div class="contact-note">{{ site.contact_note }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+    
   </article>
+
+
 </div>
