@@ -73,9 +73,6 @@ Within the seminar, students focused on principles of human-computer interaction
      class="img-fluid rounded z-depth-1 w-100" 
   %}
 </div>
-<div class="caption">
-  Projection mapping test on a replica of the Vilnius city hall to test the final projection.
-</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -98,7 +95,7 @@ Within the seminar, students focused on principles of human-computer interaction
 ### Students
 
 - Tyanka Demyanka Adrian
-- Alina Bertacca
+- [Alina Bertacca](https://alina-bertacca.de/)
 - Lilith Greta Meyer
 - Johannes Hermut Förster
 - Diana Guadalupe Espino Flores
