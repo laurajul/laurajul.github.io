@@ -383,8 +383,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-presented-revealing-fault-lines-of-our-visual-culture-text-to-image-personalization-in-the-wild-at-the-dhch25-symposium-at-istituto-svizzero-di-roma",
-          title: 'Presented “Revealing Fault Lines of our Visual Culture: Text-to-Image Personalization in the Wild”...',
+            },},{id: "news-i-presented-revealing-fault-lines-of-our-visual-culture-text-to-image-personalization-in-the-wild-at-the-dhch25-symposium-at-istituto-svizzero-di-roma",
+          title: 'I presented “Revealing Fault Lines of our Visual Culture: Text-to-Image Personalization in the...',
+          description: "",
+          section: "News",},{id: "news-our-paper-perpetuating-misogyny-with-generative-ai-how-model-personalization-normalizes-gendered-harm-got-featured-in-two-stories-by-404-media-hugging-face-is-hosting-5-000-nonconsensual-ai-models-of-real-people-a16z-backed-ai-site-civitai-is-mostly-porn-despite-claiming-otherwise",
+          title: 'Our Paper Perpetuating Misogyny with Generative AI: How Model Personalization Normalizes Gendered Harm...',
           description: "",
           section: "News",},{id: "projects-particulate-matters",
           title: 'Particulate Matters',
