@@ -1,61 +1,83 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
+
+<header class="post-header">
+  <h1 class="post-title">
+    {% if site.title == 'blank' %}
+      <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
+    {% else %}
+      {{ site.title }}
+    {% endif %}
+  </h1>
+  <p class="desc">{{ page.subtitle }}</p>
+</header>
+
+    <style>
+    #videoGrid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    top: 0;
+    left: 0;
+    z-index: 0;             /* behind content */
+    pointer-events: none;   /* doesn’t block page clicks */
+    }
+
+    .video-tile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: auto;
+    }
+
+    #videoGridWrapper {
+    height: 100vh;   /* 👈 half of the viewport height */
+    position: relative;
+    overflow: hidden;
+    }
+
+    article {
+    margin-bottom: 4rem;    /* adjust value as needed */
+    }
+
+
+    </style>  
+
+
+<article>
+  <div class="clearfix">{{ content }}</div>
+
+  {% if page.announcements and page.announcements.enabled %}
+    <h2>
+      <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+    </h2>
+    {% include news.liquid limit=true %}
+  {% endif %}
+
+  {% if page.latest_posts and page.latest_posts.enabled %}
+    <h2>
+      <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+    </h2>
+    {% include latest_posts.liquid %}
+  {% endif %}
+
+  {% if page.selected_papers %}
+    <h2>
+      <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+    </h2>
+    {% include selected_papers.liquid %}
+  {% endif %}
+
+  {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+    {% include newsletter.liquid center=true %}
+  {% endif %}
+
+  {% if page.social %}
+    <div class="social">
+      <div class="contact-icons">{% include social.liquid %}</div>
+      {% if site.contact_note %}
+        <div class="contact-note">{{ site.contact_note }}</div>
       {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-
-
-  </header>
-
-  <article>
-    <div class="clearfix">{{ content }}</div>
-
-    <!-- News -->
-    {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
-
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
-
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
-
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% include newsletter.liquid center=true %}
-    {% endif %}
-
-        {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-        {% if site.contact_note %}
-          <div class="contact-note">{{ site.contact_note }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
-    
-  </article>
-
-
-</div>
+    </div>
+  {% endif %}
+</article>

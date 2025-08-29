@@ -2,11 +2,14 @@
  * Content
  ******************************************************************************/
 
-body {
+
+
+html, body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
-
+  margin: 0;
+ padding: 0;
   h1,
   h2,
   h3,
@@ -29,6 +32,8 @@ body.sticky-bottom-footer {
 
 .container {
   max-width: $max-content-width;
+  position: relative;
+ // z-index: -100;
 }
 
 // Profile
@@ -51,3 +56,29 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+/* Make content visually visible but not block interactions */
+body,
+.container,
+main,
+.page,
+.row,
+.col-sm-9,
+.col-sm-3 {
+  pointer-events: none;
+  position: relative;
+  z-index: 1; /* still above the video grid visually */
+}
+
+/* Re-enable interaction where necessary */
+nav,
+footer,
+header,
+a,
+button,
+input,
+.video-tile,
+.giscus,
+.social,
+.contact-note {
+  pointer-events: auto;
+}

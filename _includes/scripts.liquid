@@ -5,6 +5,16 @@
   crossorigin="anonymous"
 ></script>
 
+
+<script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+<script>
+  var jekyllBaseurl = "{{ site.baseurl }}";
+</script>
+<script src="{{ '/assets/js/svg_sliders.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/reveal.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/video-grid.js' | relative_url }}" defer></script>
+
+
 <!-- Bootsrap & MDB scripts -->
 <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
 <script
@@ -331,6 +341,13 @@
   <script src="{{ '/assets/js/shortcut-key.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 
+
+
+
 {% if site.newsletter.enabled %}
   <script defer src="{{ '/assets/js/newsletter.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
+
+
+<script src="{{ '/assets/js/video-grid.js' | relative_url }}" defer></script>
+
