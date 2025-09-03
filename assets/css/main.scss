@@ -25,28 +25,9 @@ $max-content-width: {{ site.max_width }};
   "social_icons"
 ;
 
-p,
-h1, h2, h3, h4, h5, h6 {
-  color: var(--global-text-color);
-  display: inline-block;
-  line-height: 1.5;
-
-  /* Soft pastel multi-directional shadow 
-  text-shadow: 
-    2px 2px 8px rgba(255, 182, 255, 0.8),   
-   -6px -2px 4px rgba(173, 216, 230, 0.7),  
-    2px -2px 7px rgba(255, 238, 144, 0.6), 
-   -2px 8px 4px rgba(255, 255, 224, 0.9);   
-*/
 
 
-  /* Blending with background */
-  mix-blend-mode: multiply; /* try: overlay, screen, soft-light */
-  
-  /* optional padding tweak */
-  padding: 0.1em 0.25em;
-  border-radius: 0.25em; /* soften edges if bg is re-enabled */
-}
+
 
 .post {
   background-color: transparent !important;
