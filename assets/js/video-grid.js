@@ -1,30 +1,23 @@
 window.addEventListener('load', () => {
-//document.addEventListener('DOMContentLoaded', () => {
   const videoFolder = 'assets/video/video-grid/webm/';
   const frameRate = 15;
   const frameStep = 1 / frameRate;
-  const tileCount = 8 * 4;
   const reverseSpeedFactor = 4;
   const isMobile = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
   const grid = document.getElementById('videoGrid');
-  if (!grid) {
-   console.warn('videoGrid element not found');
-   return;
-  }
-
-
   if (!grid) {
     console.warn('videoGrid element not found');
     return;
   }
 
+  // ✅ Use smaller grid on mobile
+  const tileCount = isMobile ? 2 * 4 : 8 * 4;
+
   function preloadAllPosters(tileCount) {
     const promises = [];
-
     for (let i = 1; i <= tileCount; i++) {
       const index = String(((i - 1) % 20) + 1).padStart(2, '0');
       const posterUrl = `assets/video/video-grid/webm/thumbnails/${index}.jpg`;
-
       promises.push(
         new Promise((resolve) => {
           const img = new Image();
@@ -33,7 +26,6 @@ window.addEventListener('load', () => {
         })
       );
     }
-
     return Promise.all(promises);
   }
 
@@ -61,18 +53,15 @@ window.addEventListener('load', () => {
       });
 
       if (!isMobile) {
-        // Hover interaction for desktop
+        // Desktop hover interaction
         video.addEventListener('pointerenter', () => {
           reversing = false;
-          video.play().catch((error) => {
-            console.warn(`Autoplay failed on pointerenter for video ${index}:`, error);
-          });
+          video.play().catch(() => {});
         });
 
         video.addEventListener('pointerleave', () => {
           video.pause();
           reversing = true;
-
           const reverse = () => {
             if (!reversing) return;
             if (video.currentTime <= frameStep) {
@@ -84,7 +73,6 @@ window.addEventListener('load', () => {
               setTimeout(() => requestAnimationFrame(reverse), (1000 / frameRate) * reverseSpeedFactor);
             }
           };
-
           requestAnimationFrame(reverse);
         });
 
@@ -97,7 +85,7 @@ window.addEventListener('load', () => {
       videos.push(video);
     }
 
-    // Mobile random animation loop
+    // ✅ Mobile autoplay (slower, random)
     if (isMobile) {
       setInterval(() => {
         const rand = Math.floor(Math.random() * videos.length);
@@ -109,8 +97,8 @@ window.addEventListener('load', () => {
         setTimeout(() => {
           vid.pause();
           vid.currentTime = 0;
-        }, 1000); // 1 sec of play
-      }, 1200); // loop every 1.2s
+        }, 2000); // play 2 seconds
+      }, 4000); // every 4 seconds
     }
 
     document.body.style.visibility = 'visible';
