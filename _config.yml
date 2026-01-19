@@ -220,6 +220,7 @@ defaults:
 
 sass:
   style: compressed
+  quiet_deps: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
