@@ -20,7 +20,7 @@ layout: default
     top: 0;
     left: 0;
     z-index: 0;             /* behind content */
-    pointer-events: none;   /* doesn’t block page clicks */
+    pointer-events: none;   /* doesn't block page clicks */
     }
 
     .video-tile {
@@ -31,9 +31,16 @@ layout: default
     }
 
     #videoGridWrapper {
-    height: 100vh;   /* 👈 half of the viewport height */
+    height: 100vh;
     position: relative;
     overflow: hidden;
+    }
+
+    /* Mobile: 3 columns instead of 8 */
+    @media (max-width: 768px) {
+      #videoGrid {
+        grid-template-columns: repeat(3, 1fr);
+      }
     }
 
     article {
