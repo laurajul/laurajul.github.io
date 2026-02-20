@@ -103,27 +103,18 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
-      - name: Deploy to FTP (lwgnr.de) 📡
+      - name: Deploy to FTP 📡
         if: github.event_name != 'pull_request'
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./_site/
-          server-dir: /lwgnr/
-          exclude: |
-            **/_pages/**
-            **/_scripts/**
-      - name: Deploy to FTP (sparebrain.eu) 📡
-        if: github.event_name != 'pull_request'
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./_site/
-          server-dir: /sparebrain.eu/
-          exclude: |
-            **/_pages/**
-            **/_scripts/**
+        run: |
+          sudo apt-get install -y lftp
+          lftp -u "$FTP_USER","$FTP_PASS" "$FTP_HOST" <<EOF
+          set ssl:verify-certificate no
+          mirror --reverse --delete --exclude-glob _pages/ --exclude-glob _scripts/ _site/ /lwgnr/ &
+          mirror --reverse --delete --exclude-glob _pages/ --exclude-glob _scripts/ _site/ /sparebrain.eu/ &
+          wait
+          bye
+          EOF
+        env:
+          FTP_HOST: ${{ secrets.FTP_SERVER }}
+          FTP_USER: ${{ secrets.FTP_USERNAME }}
+          FTP_PASS: ${{ secrets.FTP_PASSWORD }}
