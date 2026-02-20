@@ -23,12 +23,21 @@
               {% else %}
                 <div style="display: flex; align-items: flex-start; gap: 12px;">
                   {% if item.thumbnail %}
+                    {% assign thumb_ext = item.thumbnail | split: '.' | last | downcase %}
                     <a href="{{ item.url | relative_url }}" style="flex-shrink: 0;">
-                      <img
-                        src="{{ item.thumbnail | relative_url }}"
-                        alt="{{ item.title }}"
-                        style="width: 72px; height: 72px; object-fit: cover; border-radius: 4px;"
-                      >
+                      {% if thumb_ext == 'webm' or thumb_ext == 'mp4' %}
+                        <video
+                          src="{{ item.thumbnail | relative_url }}"
+                          style="width: 72px; height: 72px; object-fit: cover; border-radius: 4px;"
+                          autoplay loop muted playsinline
+                        ></video>
+                      {% else %}
+                        <img
+                          src="{{ item.thumbnail | relative_url }}"
+                          alt="{{ item.title }}"
+                          style="width: 72px; height: 72px; object-fit: cover; border-radius: 4px;"
+                        >
+                      {% endif %}
                     </a>
                   {% endif %}
                   <div>

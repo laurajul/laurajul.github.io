@@ -5,7 +5,7 @@ date: 2026-02-12
 inline: false
 related_posts: false
 description: "Invited talk on 'Cultural Inscriptions and Taxonomies in Text-to-Image Models' at the AISthesis network for research on the aesthetics of AI imagery."
-# thumbnail: /assets/img/news/aisthesis2026.jpg  # add an image path here to show a thumbnail
+thumbnail: /assets/img/news/aisthesis_thumb.png
 ---
 
 **Event:** [AISthesis – Network for Research on the Aesthetics of AI Imagery](https://cc.au.dk/en/aiim/research-projects/aisthesis-network-for-research-on-the-aesthetics-of-ai-imagery)

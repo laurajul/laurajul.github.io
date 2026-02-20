@@ -5,7 +5,7 @@ date: 2026-01-16
 inline: false
 related_posts: false
 description: "Held 'Latent Vandalism: The Joy of Productive Damage to Text-to-Image Synthesis Pipelines' at KISD. Workshop materials available on GitHub."
-# thumbnail: /assets/img/news/kisd2026.jpg  # add an image path here to show a thumbnail
+thumbnail: /assets/video/video-grid/webm/news/latent_vandalism.webm
 ---
 
 **Institution:** [Köln International School of Design (KISD)](https://kisd.de/en/)
