@@ -55,6 +55,11 @@
       document.title = doc.title;
       updateBodyPageClasses(doc.body);
 
+      // Update video grid overlay text
+      var newOverlay = doc.querySelector('.overlay-title');
+      var oldOverlay = document.querySelector('.overlay-title');
+      if (newOverlay && oldOverlay) oldOverlay.textContent = newOverlay.textContent;
+
       if (pushState) history.pushState(null, '', url);
       window.scrollTo(0, 0);
     }).catch(function () {

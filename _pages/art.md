@@ -5,6 +5,7 @@ permalink: /art/
 description: 
 nav: true
 nav_order: 3
+hide_title: true
 display_categories: [selected artworks]
 horizontal: false
 ---

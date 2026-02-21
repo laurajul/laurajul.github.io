@@ -26,8 +26,7 @@
     <div id="videoGridWrapper">
       <div id="videoGrid" class="video-grid"></div>
       <div id="video-text-overlay" aria-hidden="true">
-        <!-- <div class="overlay-title">L<br>W</div> -->
-        <div class="overlay-title">L.W.</div>
+        <div class="overlay-title">{% if page.overlay_title %}{{ page.overlay_title }}{% elsif page.permalink == '/' %}L.W.{% else %}{{ page.title }}{% endif %}</div>
       </div>
     </div>
 

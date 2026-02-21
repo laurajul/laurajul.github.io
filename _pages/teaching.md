@@ -5,6 +5,7 @@ permalink: /teaching/
 description: 
 nav: true
 nav_order: 3
+hide_title: true
 display_categories: [seminars, workshops and talks]
 horizontal: false
 ---
