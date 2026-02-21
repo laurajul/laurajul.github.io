@@ -32,28 +32,12 @@ document.addEventListener('DOMContentLoaded', () => {
     requestAnimationFrame(reverse);
   }
 
-  function preloadAllPosters(count) {
-    const promises = [];
-    for (let i = 1; i <= count; i++) {
-      const index = String(((i - 1) % 20) + 1).padStart(2, '0');
-      const posterUrl = `/assets/video/video-grid/webm/thumbnails/${index}.webp`;
-      promises.push(
-        new Promise((resolve) => {
-          const img = new Image();
-          img.onload = () => resolve({ index, posterUrl });
-          img.src = posterUrl;
-        })
-      );
-    }
-    return Promise.all(promises);
-  }
-
-  async function init() {
-    const posterData = await preloadAllPosters(tileCount);
+  function init() {
     const videos = [];
 
     for (let i = 1; i <= tileCount; i++) {
-      const { index, posterUrl } = posterData[i - 1];
+      const index = String(((i - 1) % 20) + 1).padStart(2, '0');
+      const posterUrl = `${videoFolder}thumbnails/${index}.webp`;
 
       const video = document.createElement('video');
       video.src = `${videoFolder}${index}.webm`;
@@ -107,8 +91,6 @@ document.addEventListener('DOMContentLoaded', () => {
         vid.play().catch(() => {});
       }, 4000);
     }
-
-    document.body.style.visibility = 'visible';
   }
 
   init();
