@@ -137,6 +137,16 @@ body.home-page #video-text-overlay {
   z-index: 2;
   max-width: 1100px;
   background-color: transparent;
+  padding-bottom: 6rem;
+}
+
+body.page-art,
+body.page-teaching,
+body.page-publications,
+body.page-cv {
+  .container[role="main"] {
+    padding-bottom: 14rem;
+  }
 }
 
 /* Full-width white backdrop sits behind the content but only spans the

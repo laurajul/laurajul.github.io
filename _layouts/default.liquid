@@ -17,7 +17,7 @@
   </head>
 
   <!-- ✅ Correct placement of everything below -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}{% if page.permalink == '/' %} home-page{% endif %}">
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}{% if page.permalink == '/' %} home-page{% endif %} page-{{ page.url | remove: '/' | remove: '.html' | default: 'home' }}">
 
     <!-- Custom cursor -->
     <div id="custom-cursor"></div>
