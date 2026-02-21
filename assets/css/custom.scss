@@ -152,6 +152,7 @@ body.page-cv {
 /* Full-width white backdrop sits behind the content but only spans the
    container's vertical extent, so the video hero above stays visible.
    The large box-shadow creates the soft glow at the top/bottom edges. */
+   
 .container[role="main"]::before {
   content: '';
   position: absolute;
