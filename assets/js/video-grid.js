@@ -11,7 +11,7 @@ window.addEventListener('load', () => {
   }
 
   // ✅ Use smaller grid on mobile (3 cols × 4 rows = 12 tiles)
-  const tileCount = isMobile ? 3 * 4 : 8 * 4; 
+  const tileCount = isMobile ? 1 * 4 : 6 * 4;
 
   function preloadAllPosters(tileCount) {
     const promises = [];
@@ -45,7 +45,24 @@ window.addEventListener('load', () => {
       video.playsInline = true;
       video.poster = posterUrl;
 
-      let reversing = false;
+      video._reversing = false;
+
+      function startReverse(v) {
+        v.pause();
+        v._reversing = true;
+        const reverse = () => {
+          if (!v._reversing) return;
+          if (v.currentTime <= frameStep) {
+            v.currentTime = 0;
+            v.pause();
+            v._reversing = false;
+          } else {
+            v.currentTime -= frameStep;
+            setTimeout(() => requestAnimationFrame(reverse), (1000 / frameRate) * reverseSpeedFactor);
+          }
+        };
+        requestAnimationFrame(reverse);
+      }
 
       video.addEventListener('loadeddata', () => {
         video.pause();
@@ -55,25 +72,12 @@ window.addEventListener('load', () => {
       if (!isMobile) {
         // Desktop hover interaction
         video.addEventListener('pointerenter', () => {
-          reversing = false;
+          video._reversing = false;
           video.play().catch(() => {});
         });
 
         video.addEventListener('pointerleave', () => {
-          video.pause();
-          reversing = true;
-          const reverse = () => {
-            if (!reversing) return;
-            if (video.currentTime <= frameStep) {
-              video.currentTime = 0;
-              video.pause();
-              reversing = false;
-            } else {
-              video.currentTime -= frameStep;
-              setTimeout(() => requestAnimationFrame(reverse), (1000 / frameRate) * reverseSpeedFactor);
-            }
-          };
-          requestAnimationFrame(reverse);
+          startReverse(video);
         });
 
         video.addEventListener('ended', () => {
@@ -85,20 +89,21 @@ window.addEventListener('load', () => {
       videos.push(video);
     }
 
-    // ✅ Mobile autoplay (slower, random)
+    // Mobile autoplay (random, slow playback, gradual reverse)
     if (isMobile) {
       setInterval(() => {
         const rand = Math.floor(Math.random() * videos.length);
         const vid = videos[rand];
         if (!vid) return;
 
+        vid._reversing = false;
         vid.currentTime = 0;
+        vid.playbackRate = 0.5;
         vid.play().catch(() => {});
         setTimeout(() => {
-          vid.pause();
-          vid.currentTime = 0;
-        }, 2000); // play 2 seconds
-      }, 4000); // every 4 seconds
+          startReverse(vid);
+        }, 2000);
+      }, 4000);
     }
 
     document.body.style.visibility = 'visible';

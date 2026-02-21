@@ -16,7 +16,7 @@ layout: default
     <style>
     #videoGrid {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     top: 0;
     left: 0;
     z-index: 0;             /* behind content */
@@ -36,10 +36,10 @@ layout: default
     overflow: hidden;
     }
 
-    /* Mobile: 3 columns instead of 8 */
+    /* Mobile: 1 column */
     @media (max-width: 768px) {
       #videoGrid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
       }
     }
 
