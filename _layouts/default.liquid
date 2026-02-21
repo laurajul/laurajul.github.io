@@ -17,11 +17,18 @@
   </head>
 
   <!-- ✅ Correct placement of everything below -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}{% if page.permalink == '/' %} home-page{% endif %}">
+
+    <!-- Custom cursor -->
+    <div id="custom-cursor"></div>
 
     <!-- ✅ Grid must live inside <body>, first element -->
     <div id="videoGridWrapper">
       <div id="videoGrid" class="video-grid"></div>
+      <div id="video-text-overlay" aria-hidden="true">
+        <!-- <div class="overlay-title">L<br>W</div> -->
+        <div class="overlay-title">L.W.</div>
+      </div>
     </div>
 
     <!-- Site Header -->

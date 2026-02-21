@@ -1,6 +1,6 @@
 ---
 layout: about
-title: laura wagner
+title: me
 permalink: /
 subtitle: Doctoral Candidate at University of Zürich | National Science Foundation Switzerland
 

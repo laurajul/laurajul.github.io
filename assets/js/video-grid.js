@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const videoFolder = 'assets/video/video-grid/webm/';
+  const videoFolder = '/assets/video/video-grid/webm/';
   const frameRate = 10;
   const frameStep = 1 / frameRate;
   const reverseSpeedFactor = 4;
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const promises = [];
     for (let i = 1; i <= count; i++) {
       const index = String(((i - 1) % 20) + 1).padStart(2, '0');
-      const posterUrl = `assets/video/video-grid/webm/thumbnails/${index}.webp`;
+      const posterUrl = `/assets/video/video-grid/webm/thumbnails/${index}.webp`;
       promises.push(
         new Promise((resolve) => {
           const img = new Image();
