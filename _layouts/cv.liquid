@@ -4,6 +4,7 @@ layout: default
 {% unless site.data.resume %}
   <div class="post">
     <header class="post-header">
+      {% unless page.hide_title %}
       <h1 class="post-title">
         {{ page.title }}
         {% if page.cv_pdf %}
@@ -21,6 +22,7 @@ layout: default
           </a>
         {% endif %}
       </h1>
+      {% endunless %}
       {% if page.description %}
         <p class="post-description">{{ page.description }}</p>
       {% endif %}
@@ -55,6 +57,7 @@ layout: default
 {% else %}
   <div class="post">
     <header class="post-header">
+      {% unless page.hide_title %}
       <h1 class="post-title">
         {{ page.title }}
         {% if page.cv_pdf %}
@@ -72,6 +75,7 @@ layout: default
           </a>
         {% endif %}
       </h1>
+      {% endunless %}
       {% if page.description %}
         <p class="post-description">{{ page.description }}</p>
       {% endif %}

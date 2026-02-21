@@ -62,6 +62,7 @@
 
       if (pushState) history.pushState(null, '', url);
       window.scrollTo(0, 0);
+      document.dispatchEvent(new Event('page:navigated'));
     }).catch(function () {
       window.location.href = url;
     });

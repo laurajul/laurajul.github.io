@@ -2,6 +2,13 @@
 ---
 
 /* ===================================================
+   GLOBAL VARIABLES
+=================================================== */
+:root {
+  --video-grid-height: 66vh; /* height of the video grid on all pages except "me" */
+}
+
+/* ===================================================
    FONT
 =================================================== */
 @font-face {
@@ -41,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   pointer-events: none;
   border-radius: 50%;
   background: rgba(2, 255, 95, 0.5);
-  mix-blend-mode: difference;
+  mix-blend-mode: hard-light;
   z-index: 10000;
   transform: translate(-50%, -50%);
 }
@@ -51,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
    grid-auto-rows matches column width so tiles are square
 =================================================== */
 #videoGridWrapper {
-  height: 50vh;
+  height: var(--video-grid-height);
 }
 
 #videoGrid {
@@ -59,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 50vh;
+  height: var(--video-grid-height);
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-auto-rows: calc(100vw / 6);
@@ -98,7 +105,7 @@ body.home-page #video-text-overlay {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 50vh;
+  height: var(--video-grid-height);
   z-index: 1;
   pointer-events: none;
   mix-blend-mode: soft-light;
@@ -114,7 +121,7 @@ body.home-page #video-text-overlay {
   line-height: 1;
   text-transform: none;
   letter-spacing: 0.05em;
-  color: rgba(21, 0, 255, 0.5);
+  color: rgba(21, 0, 255, 0.326);
   text-shadow:
     -12px 14px 5px rgba(236, 153, 43, 0.6),
     19px -6px 30px rgba(18, 255, 255, 0.8),
@@ -123,6 +130,18 @@ body.home-page #video-text-overlay {
     13px 9px 15px rgba(245, 248, 60, 0.8);
   margin: 0;
   user-select: none;
+}
+
+/* ===================================================
+   CV OVERRIDES
+=================================================== */
+.cv .card {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.cv-year {
+  color: var(--global-theme-color);
 }
 
 /* ===================================================
