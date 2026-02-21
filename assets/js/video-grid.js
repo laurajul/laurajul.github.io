@@ -1,8 +1,9 @@
-window.addEventListener('load', () => {
+document.addEventListener('DOMContentLoaded', () => {
   const videoFolder = 'assets/video/video-grid/webm/';
-  const frameRate = 15;
+  const frameRate = 10;
   const frameStep = 1 / frameRate;
   const reverseSpeedFactor = 4;
+  const rowHeight = 150;
   const isMobile = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
   const grid = document.getElementById('videoGrid');
   if (!grid) {
@@ -10,14 +11,32 @@ window.addEventListener('load', () => {
     return;
   }
 
-  // ✅ Use smaller grid on mobile (3 cols × 4 rows = 12 tiles)
-  const tileCount = isMobile ? 2 * 4 : 6 * 4;
+  const cols = isMobile ? 2 : 6;
+  const rows = Math.ceil(window.innerHeight / rowHeight);
+  const tileCount = cols * rows;
 
-  function preloadAllPosters(tileCount) {
+  function startReverse(v) {
+    v.pause();
+    v._reversing = true;
+    const reverse = () => {
+      if (!v._reversing) return;
+      if (v.currentTime <= frameStep) {
+        v.currentTime = 0;
+        v.pause();
+        v._reversing = false;
+      } else {
+        v.currentTime -= frameStep;
+        setTimeout(() => requestAnimationFrame(reverse), (1000 / frameRate) * reverseSpeedFactor);
+      }
+    };
+    requestAnimationFrame(reverse);
+  }
+
+  function preloadAllPosters(count) {
     const promises = [];
-    for (let i = 1; i <= tileCount; i++) {
+    for (let i = 1; i <= count; i++) {
       const index = String(((i - 1) % 20) + 1).padStart(2, '0');
-      const posterUrl = `assets/video/video-grid/webm/thumbnails/${index}.jpg`;
+      const posterUrl = `assets/video/video-grid/webm/thumbnails/${index}.webp`;
       promises.push(
         new Promise((resolve) => {
           const img = new Image();
@@ -44,25 +63,7 @@ window.addEventListener('load', () => {
       video.preload = 'auto';
       video.playsInline = true;
       video.poster = posterUrl;
-
       video._reversing = false;
-
-      function startReverse(v) {
-        v.pause();
-        v._reversing = true;
-        const reverse = () => {
-          if (!v._reversing) return;
-          if (v.currentTime <= frameStep) {
-            v.currentTime = 0;
-            v.pause();
-            v._reversing = false;
-          } else {
-            v.currentTime -= frameStep;
-            setTimeout(() => requestAnimationFrame(reverse), (1000 / frameRate) * reverseSpeedFactor);
-          }
-        };
-        requestAnimationFrame(reverse);
-      }
 
       video.addEventListener('loadeddata', () => {
         video.pause();
@@ -70,7 +71,6 @@ window.addEventListener('load', () => {
       });
 
       if (!isMobile) {
-        // Desktop hover interaction
         video.addEventListener('pointerenter', () => {
           video._reversing = false;
           video.play().catch(() => {});
@@ -83,26 +83,28 @@ window.addEventListener('load', () => {
         video.addEventListener('ended', () => {
           video.pause();
         });
+      } else {
+        video.addEventListener('ended', () => {
+          startReverse(video);
+        });
       }
 
       grid.appendChild(video);
       videos.push(video);
     }
 
-    // Mobile autoplay (random, slow playback, gradual reverse)
+    // Mobile: randomly trigger a video every 4 seconds;
+    // it plays at half speed to end, then reverses gradually
     if (isMobile) {
       setInterval(() => {
         const rand = Math.floor(Math.random() * videos.length);
         const vid = videos[rand];
-        if (!vid) return;
+        if (!vid || vid._reversing) return;
 
         vid._reversing = false;
         vid.currentTime = 0;
         vid.playbackRate = 0.5;
         vid.play().catch(() => {});
-        setTimeout(() => {
-          startReverse(vid);
-        }, 2000);
       }, 4000);
     }
 
