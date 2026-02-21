@@ -11,7 +11,7 @@ window.addEventListener('load', () => {
   }
 
   // ✅ Use smaller grid on mobile (3 cols × 4 rows = 12 tiles)
-  const tileCount = isMobile ? 1 * 4 : 6 * 4;
+  const tileCount = isMobile ? 2 * 4 : 6 * 4;
 
   function preloadAllPosters(tileCount) {
     const promises = [];
