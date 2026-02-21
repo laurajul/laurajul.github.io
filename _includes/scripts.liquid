@@ -1,17 +1,10 @@
-<!-- jQuery -->
-<script
-  src="{{ site.third_party_libraries.jquery.url.js }}"
-  integrity="{{ site.third_party_libraries.jquery.integrity.js }}"
-  crossorigin="anonymous"
-></script>
-
-
+<!-- jQuery (local copy only - removed CDN duplicate to reduce unused JS) -->
 <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
 <script>
   var jekyllBaseurl = "{{ site.baseurl }}";
 </script>
-<script src="{{ '/assets/js/svg_sliders.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/reveal.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/svg_sliders.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/reveal.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/cursor.js' | relative_url }}" defer></script>
 
 <!-- Bootsrap & MDB scripts -->
