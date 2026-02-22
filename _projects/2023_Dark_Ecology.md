@@ -40,22 +40,7 @@ The project culminated in a projection mapping presentation on a model of the Vi
 
 ---
 
-## Process Images
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/placeholder_process_1.jpg" title="Process Image 1" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/placeholder_process_2.jpg" title="Process Image 2" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/placeholder_process_3.jpg" title="Process Image 3" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    A few glimpses into the creative process during the summer school workshops.
-</div>
+<!-- TODO: add process images to assets/img/ and restore Process Images section here -->
 
 ---
 

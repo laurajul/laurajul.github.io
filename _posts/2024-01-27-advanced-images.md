@@ -9,6 +9,7 @@ thumbnail: assets/img/9.jpg
 images:
   compare: true
   slider: true
+published: false # al-folio demo post — kept as slider/comparison component reference
 ---
 
 This is an example post with advanced image components.

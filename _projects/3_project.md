@@ -6,6 +6,7 @@ img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
 category: 2017
+published: false # al-folio demo page — kept as layout/image grid reference
 ---
 
 Every project has a beautiful feature showcase page.

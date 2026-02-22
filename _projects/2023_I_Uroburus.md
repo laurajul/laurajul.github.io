@@ -2,9 +2,10 @@
 layout: page
 title: project 9
 description: another project with an image 🎉
-img: assets/img/6.jpg
+img:
 importance: 4
 category: fun
+published: false # unfilled stub — fill in title, description, img and content before publishing
 ---
 
 Every project has a beautiful feature showcase page.

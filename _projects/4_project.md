@@ -5,6 +5,7 @@ description: another without an image
 img:
 importance: 3
 category: fun
+published: false # al-folio demo page — kept as layout/image grid reference
 ---
 
 Every project has a beautiful feature showcase page.
