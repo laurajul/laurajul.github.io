@@ -8,10 +8,10 @@ first_name: Laura
 last_name: Wagner
 contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
- Personal website of Laura Wagner.
+ Personal academic website of Laura Wagner, Doctoral Candidate at the University of Zürich researching generative AI, text-to-image models and AI culture, supported by the Swiss National Science Foundation.
 footer_text: >
 
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Laura Wagner, PhD researcher, University of Zürich, UZH, academia, generative AI, text-to-image, human-computer interaction, hci, AI culture, online communities, design education, Swiss National Science Foundation, SNSF, digital sovereignty, digital feminism
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: /assets/favicon/favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -59,9 +59,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: # The site-wide (default for all links) Open Graph preview image — add a non-face image path here if desired (e.g. /assets/img/og-banner.png)
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

@@ -3,6 +3,8 @@ layout: about
 title: me
 permalink: /
 subtitle: Doctoral Candidate at University of Zürich | National Science Foundation Switzerland
+description: "Laura Wagner is a Doctoral Candidate at the University of Zürich, researching generative AI models, text-to-image systems, and AI culture. Supported by the Swiss National Science Foundation (SNSF)."
+keywords: "Laura Wagner, PhD, doctoral candidate, University of Zürich, UZH, generative AI, text-to-image, AI art, AI culture, online communities, SNSF, design"
 
 profile: 
   align: none
