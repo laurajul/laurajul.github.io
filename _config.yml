@@ -188,6 +188,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - assets/video/video-grid/webm/compressed
 keep_files:
   - CNAME
   - .nojekyll

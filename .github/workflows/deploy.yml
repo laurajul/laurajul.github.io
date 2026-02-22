@@ -109,9 +109,12 @@ jobs:
           sudo apt-get install -y lftp
           lftp -u "$FTP_USER","$FTP_PASS" "$FTP_HOST" <<EOF
           set ssl:verify-certificate no
-          mirror --reverse --delete --exclude-glob _pages/ --exclude-glob _scripts/ _site/ /lwgnr/ &
-          mirror --reverse --delete --exclude-glob _pages/ --exclude-glob _scripts/ _site/ /sparebrain.eu/ &
-          wait
+          set net:timeout 30
+          set net:max-retries 3
+          set net:reconnect-interval-base 5
+          set ftp:passive-mode true
+          mirror --reverse --delete --parallel=4 _site/ /lwgnr/
+          mirror --reverse --delete --parallel=4 _site/ /sparebrain.eu/
           bye
           EOF
         env:
