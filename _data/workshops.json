@@ -1,6 +1,20 @@
 
 [
 {
+"title": "Democratizing Style: Authorship and Consent in Text-to-Image AI Personalizations | invited talk",
+"location": "Institutionen för ABM, Högre Seminarium, Uppsala University, Sweden",
+"date": "2025-09-30",
+"description": "Invited talk on how community-trained personalizations such as LoRA commodify individual artists' styles, raising questions about authorship, consent, and ownership. Examines thousands of style-tagged models and controlled experiments with hand-drawn data.",
+"url": "https://www.uu.se/institution/abm/kalendarium/arkiv/2025-09-30-hogre-seminarium-laura-wagner-universitat-zurich---democratizing-style-authorship-and-consent-in-text-to-image-ai-personalizations"
+},
+{
+"title": "Digital Humanities Workshop: Computational Analysis of Cultural Heritage Images",
+"location": "Uppsala University, Sweden",
+"date": "2025-10",
+"description": "Practical workshop on computational approaches to digital humanities through analysis of European cultural heritage image collections, using Europeana's API, IIIF, and CLIP embeddings for categorization, clustering, and computational sorting.",
+"url": "https://github.com/laurajul/DH-Workshop"
+},
+{
 "title": "Text-to-Image AI Personalization in the Wild | talk",
 "location": "DHCH25@, Istituto Svizzero di Roma, Italy",
 "date": "2024-06-12",
