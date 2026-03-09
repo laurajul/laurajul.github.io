@@ -4,6 +4,7 @@ title: Nothing Exists Alone
 description: Interactive sonification through textile
 img: assets/img/art/2025_nothing_exists/title.webp
 #redirect: https://unsplash.com
+date: 2025-01-01
 importance: 1
 category: selected artworks
 ---
