@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Workshop – Digital Humanities: Computational Analysis of Cultural Heritage Images, Uppsala University"
-date: 2025-10-01
+date: 2026-03-02
 inline: false
 related_posts: false
 description: "Practical workshop on computational approaches to digital humanities, using Europeana's API, IIIF, and CLIP embeddings to analyse European cultural heritage image collections."
