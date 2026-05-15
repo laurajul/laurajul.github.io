@@ -7,6 +7,41 @@
 (function () {
   const cache = new Map();
 
+  // src URLs of data-once scripts that have already been loaded.
+  var _executedOnceScripts = new Set();
+
+  // Re-runs <script> elements inside container in document order.
+  // External scripts marked data-once are skipped after their first load.
+  function reExecuteScripts(container, done) {
+    var scripts = Array.from(container.querySelectorAll('script'));
+    function next(i) {
+      if (i >= scripts.length) { if (done) done(); return; }
+      var old = scripts[i];
+      var s = document.createElement('script');
+      Array.from(old.attributes).forEach(function (a) {
+        if (a.name !== 'data-once') s.setAttribute(a.name, a.value);
+      });
+      if (old.src) {
+        if (old.dataset.once !== undefined && _executedOnceScripts.has(old.src)) {
+          old.remove();
+          next(i + 1);
+          return;
+        }
+        s.addEventListener('load', function () {
+          if (old.dataset.once !== undefined) _executedOnceScripts.add(s.src);
+          next(i + 1);
+        });
+        s.addEventListener('error', function () { next(i + 1); });
+        old.parentNode.replaceChild(s, old);
+      } else {
+        s.textContent = old.textContent;
+        old.parentNode.replaceChild(s, old);
+        next(i + 1);
+      }
+    }
+    next(0);
+  }
+
   function fetchPage(url) {
     if (cache.has(url)) return Promise.resolve(cache.get(url));
     return fetch(url, { credentials: 'same-origin' })
@@ -41,6 +76,8 @@
 
       var doc = new DOMParser().parseFromString(html, 'text/html');
 
+      document.dispatchEvent(new Event('page:beforenavigate'));
+
       // Swap header (updates active nav link)
       var newHeader = doc.querySelector('header');
       var oldHeader = document.querySelector('header');
@@ -50,7 +87,8 @@
       var newMain = doc.querySelector('.container[role="main"]');
       var oldMain = document.querySelector('.container[role="main"]');
       if (!newMain || !oldMain) { window.location.href = url; return; }
-      oldMain.replaceWith(newMain.cloneNode(true));
+      var cloned = newMain.cloneNode(true);
+      oldMain.replaceWith(cloned);
 
       document.title = doc.title;
       updateBodyPageClasses(doc.body);
@@ -62,7 +100,10 @@
 
       if (pushState) history.pushState(null, '', url);
       window.scrollTo(0, 0);
-      document.dispatchEvent(new Event('page:navigated'));
+
+      reExecuteScripts(cloned, function () {
+        document.dispatchEvent(new Event('page:navigated'));
+      });
     }).catch(function () {
       window.location.href = url;
     });

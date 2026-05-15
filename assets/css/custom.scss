@@ -117,7 +117,7 @@ body.home-page #video-text-overlay {
 
 .overlay-title {
   font-family: 'bluunext-titling', sans-serif;
-  font-size: clamp(15.5rem, 10vw, 10rem);
+  font-size: clamp(6rem, 13vw, 15.5rem);
   line-height: 1;
   text-transform: none;
   letter-spacing: 0.05em;
@@ -130,6 +130,26 @@ body.home-page #video-text-overlay {
     13px 9px 15px rgba(245, 248, 60, 0.8);
   margin: 0;
   user-select: none;
+}
+
+/* ===================================================
+   LARGE SCREEN SCALING
+   Full HD (1920px) — widen container
+   4K (3840px)      — widen further + scale up base font
+=================================================== */
+@media (min-width: 1920px) {
+  .container[role="main"] {
+    max-width: 1500px;
+  }
+}
+
+@media (min-width: 3840px) {
+  html {
+    font-size: 20px;
+  }
+  .container[role="main"] {
+    max-width: 2600px;
+  }
 }
 
 /* ===================================================

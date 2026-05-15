@@ -117,8 +117,28 @@ The installation aims to raise awareness by **making this invisible threat to hu
   const sketchAssetPath = "{{ '/assets/js/pm/' | relative_url }}";
 </script>
 
-<script src="{{ '/assets/js/pm/lib/p5.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/pm/lib/p5.min.js' | relative_url }}" data-once></script>
 <script src="{{ '/assets/js/pm/sketch.js' | relative_url }}"></script>
+
+<script>
+  // After client-side navigation, p5 won't auto-init (it already ran its
+  // startup check before sketch.js defined setup/draw). This listener fires
+  // once all content scripts have finished loading and kicks off p5 manually
+  // when needed. De-duplicated so repeat visits don't stack listeners.
+  (function () {
+    function tryInitP5() {
+      if (!document.getElementById('p5-canvas-container')) return;
+      if (!window.p5 || window.p5.instance) return;
+      if (typeof window.setup !== 'function') return;
+      new p5();
+    }
+    if (window._pmNavHandler) {
+      document.removeEventListener('page:navigated', window._pmNavHandler);
+    }
+    window._pmNavHandler = tryInitP5;
+    document.addEventListener('page:navigated', tryInitP5);
+  })();
+</script>
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {

@@ -292,3 +292,18 @@ function getAirQualityText(aqiValue) {
     if (aqiValue < 300) return 'Very Unhealthy';
     return 'Hazardous';
 }
+
+// Remove the running p5 instance before page-router swaps the content away,
+// so the animation loop and canvas don't linger after navigation.
+(function () {
+  function cleanup() {
+    if (window.p5 && window.p5.instance) {
+      window.p5.instance.remove();
+    }
+  }
+  if (window._pmBeforeNavHandler) {
+    document.removeEventListener('page:beforenavigate', window._pmBeforeNavHandler);
+  }
+  window._pmBeforeNavHandler = cleanup;
+  document.addEventListener('page:beforenavigate', cleanup);
+})();
