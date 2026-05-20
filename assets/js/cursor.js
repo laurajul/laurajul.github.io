@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(()=>{const e=document.getElementById("custom-cursor");e&&document.addEventListener("mousemove",(t=>{e.style.top=`${t.clientY}px`,e.style.left=`${t.clientX}px`}))}));
