@@ -85,6 +85,16 @@ ninja.data = [{
           description: "Practical workshop on computational approaches to digital humanities, using Europeana&#39;s API, IIIF, and CLIP embeddings to analyse European cultural heritage image collections.",
           section: "News",handler: () => {
               window.location.href = "/news/2025_Uppsala_DH_workshop/";
+            },},{id: "news-paper-published-in-big-data-amp-society",
+          title: 'Paper Published in Big Data &amp;amp; Society',
+          description: "&#39;Perpetuating Misogyny with Generative AI: How Model Personalization Normalizes Gendered Harm&#39;, co-authored with Eva Cetinić, is now out in Big Data &amp; Society.",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026_bds_publication/";
+            },},{id: "news-artwork-accepted-into-cvpr-2026-art-program",
+          title: 'Artwork Accepted into CVPR 2026 Art Program',
+          description: "&#39;Drawing ImageNet&#39; has been accepted into the CVPR 2026 Art Program, Aesthetics track.",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026_cvpr_art/";
             },},{id: "projects-particulate-matters",
           title: 'Particulate Matters',
           description: "An interactive data visualization of fine particulate matter.",
