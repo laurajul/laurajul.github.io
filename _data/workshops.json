@@ -41,6 +41,13 @@
     "description": "A collaborative experimental micro-workshop with Lenka Hamosova, using text-to-image outpainting in a shared canvas and reflecting on taxonomies in multimodal AI systems."
   },
   {
+    "title": "ANTHROBOT Phase II",
+    "location": "KISD, TH Köln, Cologne, Germany",
+    "date": "2023-10 to 2023-12",
+    "description": "A seminar with Prof Dr. Lasse Scherffig and the DIPHTHONG collective dedicated to the development of a performance with a collaborative UR3e robot arm.",
+    "url": "https://kisd.de/news/einladunganthrobot/"
+  },
+  {
     "title": "Dark Ecology",
     "location": "Flora (botanical garden), Cologne, Germany",
     "date": "2023-10 to 2023-12",
@@ -85,6 +92,13 @@
     "url": "https://mr.uni-wuppertal.de/dim/aktuelles/dis-embodied-minds-ki-kreativitaet-und-ko-kreation"
   },
   {
+    "title": "ANTHROBOT Phase I",
+    "location": "KISD, TH Köln, Cologne, Germany",
+    "date": "2023-05 to 2023-06",
+    "description": "A seminar with Prof Dr. Lasse Scherffig exploring Human-Machine-Interaction with a UR3e collaborative robot arm, as a preparation for ANTHROBOT Phase II and the theater performance developed in collaboration with the DIPHTHONG collective.",
+    "url": "https://rausgegangen.de/en/events/anthrobot-4/"
+  },
+  {
     "title": "ADVERSARIAL ANIMATION",
     "location": "Tampere, Finland",
     "date": "2023-05",
@@ -113,6 +127,12 @@
     "location": "Hochschule RheinMain, Germany",
     "date": "2023-04-13 to 2023-04-16",
     "description": "A 3-day intensive workshop with Lisa Marleen Mantel for creating animations with Stable Diffusion and combining applied AI with traditional design skills."
+  },
+  {
+    "title": "(dis-)embodied minds Workshop",
+    "location": "Vilnius Art Academy, Lithuania",
+    "date": "2023-03-13 to 2023-03-17",
+    "description": "A 3-day intensive workshop for creating animations with Stable Diffusion with an emphasis on the parseq animation system."
   },
   {
     "title": "Intro to text-to-image AI Workshop",

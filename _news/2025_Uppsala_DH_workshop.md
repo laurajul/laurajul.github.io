@@ -26,3 +26,4 @@ The workshop combines conceptual discussion with hands-on exercises, covering:
 - How to work with cross-institutional datasets spanning European collections
 
 By reflecting on both the affordances and limitations of such algorithmic readings, the session aims to foster a critical understanding of how computational methods can augment and challenge traditional art-historical and cultural-analytical practices.
+
