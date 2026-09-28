@@ -1,0 +1,4 @@
+[submodule "entomon"]
+	path = entomon
+	url = https://github.com/ThomasRutzer/entomon.git
+	branch = dev
