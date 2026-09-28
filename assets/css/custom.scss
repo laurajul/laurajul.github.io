@@ -322,7 +322,7 @@ body.page-cv {
      change this alongside the #navbar rule above if you swap that one.
      No separate opacity here — the dither PNG's "on" pixels already carry
      --global-bg-color's own alpha (see generate-dither-fade.py). */
-  mix-blend-mode: color-burn;
+  mix-blend-mode: soft-light;
 }
 
 .content-fade-top {
