@@ -42,34 +42,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-conference-presentation-at-dhch-2025",
-          title: 'Conference Presentation at DHCH 2025',
-          description: "Presented &#39;Revealing Fault Lines of Our Visual Culture&#39; at the DHCH 2025 Symposium, ISR Roma.",
-          section: "News",handler: () => {
-              window.location.href = "/news/2025_DHCH/";
-            },},{id: "news-our-paper-perpetuating-misogyny-with-generative-ai-how-model-personalization-normalizes-gendered-harm-got-featured-in-two-stories-by-404-mediall-hugging-face-is-hosting-5-000-nonconsensual-ai-models-of-real-people-a16z-backed-ai-site-civitai-is-mostly-porn-despite-claiming-otherwise",
-          title: 'Our Paper Perpetuating Misogyny with Generative AI: How Model Personalization Normalizes Gendered Harm...',
-          description: "",
-          section: "News",},{id: "news-research-stay-at-uppsala-university",
-          title: 'Research Stay at Uppsala University',
-          description: "Research visit to the Digital Humanities Department at Uppsala University, including a workshop on authorship and consent in text-to-image AI.",
-          section: "News",handler: () => {
-              window.location.href = "/news/2025_research_visit_Uppsala/";
-            },},{id: "news-invited-talk-högre-seminarium-uppsala-university",
-          title: 'Invited Talk – Högre Seminarium, Uppsala University',
-          description: "Invited talk on &#39;Democratizing Style: Authorship and Consent in Text-to-Image AI Personalizations&#39; at the Institutionen för ABM Högre Seminarium, Uppsala University.",
-          section: "News",handler: () => {
-              window.location.href = "/news/2025_Uppsala_ABM_talk/";
-            },},{id: "news-conference-presentation-at-algorithmic-pattern-2025",
-          title: 'Conference Presentation at Algorithmic Pattern 2025',
-          description: "Co-presented &#39;How a Hacked 70s Knitting Machine Became a Participant in Our Lab on Weaving Sustainable Digital Future Stories&#39; at Algorithmic Pattern 2025.",
-          section: "News",handler: () => {
-              window.location.href = "/news/2025_algorithmic_pattern/";
-            },},{id: "news-talk-at-39-from-hype-to-reality-ai-in-the-study-of-art-and-culture-39",
-          title: 'Talk at &amp;#39;From Hype to Reality: AI in the Study of Art and...',
-          description: "Presented &#39;Text-to-Image in the Wild: Ethics and Culture in Open-Source AI&#39; at the Digital Society Initiative symposium, University of Zurich.",
-          section: "News",handler: () => {
-              window.location.href = "/news/2025_from_hype_to_reality/";
             },},{id: "news-workshop-at-kisd-köln-international-school-of-design",
           title: 'Workshop at KISD – Köln International School of Design',
           description: "Held &#39;Latent Vandalism: The Joy of Productive Damage to Text-to-Image Synthesis Pipelines&#39; at KISD. Workshop materials available on GitHub.",
@@ -84,17 +56,22 @@ ninja.data = [{
           title: 'Workshop – Digital Humanities: Computational Analysis of Cultural Heritage Images, Uppsala University',
           description: "Practical workshop on computational approaches to digital humanities, using Europeana&#39;s API, IIIF, and CLIP embeddings to analyse European cultural heritage image collections.",
           section: "News",handler: () => {
-              window.location.href = "/news/2025_Uppsala_DH_workshop/";
-            },},{id: "news-paper-published-in-big-data-amp-society",
-          title: 'Paper Published in Big Data &amp;amp; Society',
-          description: "&#39;Perpetuating Misogyny with Generative AI: How Model Personalization Normalizes Gendered Harm&#39;, co-authored with Eva Cetinić, is now out in Big Data &amp; Society.",
-          section: "News",handler: () => {
-              window.location.href = "/news/2026_bds_publication/";
+              window.location.href = "/news/2026_Uppsala_DH_workshop/";
             },},{id: "news-artwork-accepted-into-cvpr-2026-art-program",
           title: 'Artwork Accepted into CVPR 2026 Art Program',
           description: "&#39;Drawing ImageNet&#39; has been accepted into the CVPR 2026 Art Program, Aesthetics track.",
           section: "News",handler: () => {
               window.location.href = "/news/2026_cvpr_art/";
+            },},{id: "news-paper-published-in-big-data-amp-society",
+          title: 'Paper Published in Big Data &amp;amp; Society',
+          description: "&#39;Perpetuating Misogyny with Generative AI: How Model Personalization Normalizes Gendered Harm&#39;, co-authored with Eva Cetinić, is now out in Big Data &amp; Society.",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026_bds_publication/";
+            },},{id: "news-masterclass-at-update-festival-liepāja",
+          title: 'Masterclass at UPDATE Festival, Liepāja',
+          description: "Held the online masterclass &#39;Latent Vandalism: The Joy of Productive Damage to Text-to-Image Synthesis Pipelines&#39; (in two parts) at UPDATE Festival, Liepāja.",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026_update_festival_masterclass/";
             },},{id: "projects-particulate-matters",
           title: 'Particulate Matters',
           description: "An interactive data visualization of fine particulate matter.",
