@@ -282,11 +282,11 @@ body.page-cv {
 .container[role="main"]::before {
   content: '';
   position: absolute;
-  top: calc(var(--content-fade-height) + 0px);
+  top: var(--content-fade-height);
   left: 50%;
   transform: translateX(-50%);
   width: 100vw;
-  height: calc(100% - (var(--content-fade-height) * 2) + 0px);
+  height: calc(100% - (var(--content-fade-height) * 2));
   background-color: var(--global-bg-color);
   mix-blend-mode: hard-light;
   z-index: -1;
