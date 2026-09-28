@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Artwork Accepted into CVPR 2026 Art Program"
-date: 2026-09-27
+date: 2026-07-27
 inline: false
 related_posts: false
 description: "'Drawing ImageNet' has been accepted into the CVPR 2026 Art Program, Aesthetics track."
-thumbnail: /assets/img/art/drawing_imagenet/title_di.png
+#thumbnail: /assets/img/art/drawing_imagenet/title_di.png
+redirect: https://laurajul.github.io/projects/drawing_imagenet/
 ---
 
 **Program:** [CVPR 2026 Art Program](https://www.thecvf-art.com/project.php?year=2026&artist=laura-wagner&id=975), Aesthetics Track

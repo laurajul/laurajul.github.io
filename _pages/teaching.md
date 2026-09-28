@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 3
 hide_title: true
-display_categories: [seminars, workshops and talks]
+display_categories: [workshops and talks, seminars]
 horizontal: false
 ---
 
@@ -36,6 +36,12 @@ horizontal: false
     {% endfor %}
   </div>
   {% endif %}
+
+  {% if category == "workshops and talks" %}
+    {% for workshop in site.data.workshops %}
+      {% include workshop.liquid workshop=workshop %}
+    {% endfor %}
+  {% endif %}
   {% endfor %}
 
 {% else %}
@@ -64,8 +70,3 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
-
-
-{% for workshop in site.data.workshops %}
-  {% include workshop.liquid workshop=workshop %}
-{% endfor %}

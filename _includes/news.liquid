@@ -21,10 +21,15 @@
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
+                {% if item.redirect %}
+                  {% assign news_href = item.redirect %}
+                {% else %}
+                  {% assign news_href = item.url | relative_url %}
+                {% endif %}
                 <div style="display: flex; align-items: flex-start; gap: 12px;">
                   {% if item.thumbnail %}
                     {% assign thumb_ext = item.thumbnail | split: '.' | last | downcase %}
-                    <a href="{{ item.url | relative_url }}" style="flex-shrink: 0;">
+                    <a href="{{ news_href }}" style="flex-shrink: 0;">
                       {% if thumb_ext == 'webm' or thumb_ext == 'mp4' %}
                         <video
                           src="{{ item.thumbnail | relative_url }}"
@@ -41,7 +46,7 @@
                     </a>
                   {% endif %}
                   <div>
-                    <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    <a class="news-title" href="{{ news_href }}">{{ item.title }}</a>
                     {% if item.description %}
                       <p class="news-description" style="margin: 2px 0 0; font-size: 0.875em; color: var(--global-text-color-light);">{{ item.description }}</p>
                     {% endif %}

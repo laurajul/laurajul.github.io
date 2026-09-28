@@ -1,6 +1,13 @@
 
 [
 {
+"title": "Latent Vandalism: The Joy of Productive Damage to Text-to-Image Synthesis Pipelines | masterclass",
+"location": "UPDATE Festival, Liepaja, Latvia (online)",
+"date": "2026-09-21 to 2026-09-24",
+"description": "An online masterclass in two parts on embracing glitches and productive failure in text-to-image diffusion pipelines — working directly with Diffusion Transformers (DiT) and deliberately damaging the embedding, latent, and pixel space that guides image generation to surface the model's implicit assumptions.",
+"url": "https://2026.updatefestival.lv/en/masterclasses"
+},
+{
 "title": "Democratizing Style: Authorship and Consent in Text-to-Image AI Personalizations | invited talk",
 "location": "Institutionen för ABM, Högre Seminarium, Uppsala University, Sweden",
 "date": "2025-09-30",
