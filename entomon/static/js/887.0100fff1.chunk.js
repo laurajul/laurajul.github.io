@@ -1,0 +1,2 @@
+(this.webpackJsonpentomon=this.webpackJsonpentomon||[]).push([[887],{986:function(t,n,s){"use strict";s.r(n),n.default=s.p+"static/media/flickr_0602.ff932cdd.jpg"}}]);
+//# sourceMappingURL=887.0100fff1.chunk.js.map

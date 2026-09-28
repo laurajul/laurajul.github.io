@@ -82,6 +82,11 @@ ninja.data = [{
           description: "Interactive data visualization using a capacitive touchscreen and tangible markers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2018_multitouch/";
+            },},{id: "projects-entomon",
+          title: 'Entomon',
+          description: "Interspecies metamorphosis",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2021_Entomon/";
             },},{id: "projects-borrowed-limbs",
           title: 'Borrowed Limbs',
           description: "Text-to-image short film",

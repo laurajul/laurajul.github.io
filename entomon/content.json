@@ -1,0 +1,81 @@
+{
+  "common": {
+    "title": "entomon"
+  },
+  "intro": {
+    "steps": [
+      {
+        "title": "Metamorphosis",
+        "subTitle": "interspecies"
+      },
+      {
+        "title": "Hybridisation",
+        "subTitle": "Unwanted Bodies",
+        "text": "A curated collection of interspecies alternatives, using technologically mediated natures through machine vision to question human representation."
+      },
+      {
+        "title": "Please Note",
+        "subTitle": "Before you start",
+        "text": "This experience moves imaginary fast. If this is not for you, please refrain using it. Use 'pinch' and 'scroll' to move and preferable enjoy it on a large screen."
+      }
+    ],
+    "button": "enter"
+  },
+
+  "about": {
+    "title": "Metamorphosis",
+    "subTitle": "interspecies",
+    "sections": [
+      {
+        "label": "created with",
+        "listItems": [
+          {
+            "label": "Stylegan2-ada-pytorch",
+            "link": "https://github.com/NVlabs/stylegan3"
+          }
+        ]
+      },
+      {
+        "label": "curated by",
+        "listItems": [
+          {
+            "label": "Laura Juliane Wagner",
+            "link": "https://lwgnr.de/"
+          },
+          {
+            "label": "Lisa-Marleen Mantel",
+            "link": "http://lisamarleen.de"
+          }
+        ]
+      },
+      {
+        "label": "collectable on",
+        "listItems": [
+          {
+            "label": "https://hicetnunc.art/samsa",
+            "link": "https://hicetnunc.art/samsa"
+          }
+        ]
+      }
+    ]
+  },
+  "header": {
+    "aboutToggleDescription": "Toggle About"
+  },
+  "experience": {
+    "audioPlayer": {
+      "mute": "mute",
+      "unmute": "unmute"
+    },
+    "chapterTitleLabel": "Dataset",
+    "chapterSwitch": "switching dataset",
+    "chapterNames": [
+      "Celeb",
+      "Flickr"
+    ],
+    "epilog": {
+      "title": "Epilog",
+      "copy": "We used StyleGAN2-ada-pytorch, an approach for training generative adversarial networks developed by NvLabs (NVIDIA). Our aim was to explore the whole pipeline in order to get familiar with the use of styleGAN2 as a tool for creative processes. Testing pre-trained models, creating a dataset from curated images, training a dataset, generating images from our trained dataset. In order to explore ways to enhance the visual quality of our results, we upscaled them again with the help of neural networks. For the batch- processig and upscaling of images, we adapted ESRGAN for our purposes."
+    }
+  }
+}
