@@ -31,4 +31,4 @@ How much will we need to reshape human bodies to detach from discriminating norm
 
 [Go to the web experience]({{ '/entomon/' | relative_url }})
 
-Web experience developed by [Thomas Rutzer](https://github.com/ThomasRutzer), based on our artwork.
+Web experience developed by [Thomas Rutzer](https://thomasrutzer.dev/), based on our artwork.
