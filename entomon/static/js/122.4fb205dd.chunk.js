@@ -1,2 +1,1 @@
 (this.webpackJsonpentomon=this.webpackJsonpentomon||[]).push([[122],{221:function(t,e,n){"use strict";n.r(e),e.default=n.p+"static/media/celeb_0037.1fc45d7d.jpg"}}]);
-//# sourceMappingURL=122.4fb205dd.chunk.js.map
