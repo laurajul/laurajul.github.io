@@ -111,6 +111,8 @@ jobs:
           cache-dependency-path: entomon/yarn.lock
       - name: Build Entomon 🐛
         working-directory: entomon
+        env:
+          GENERATE_SOURCEMAP: false # don't publish entomon's readable source
         run: |
           yarn install --frozen-lockfile
           yarn build
